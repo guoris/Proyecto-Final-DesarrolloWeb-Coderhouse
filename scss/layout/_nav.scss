@@ -1,0 +1,120 @@
+// IMPORTS
+@import "../tools/responsive";
+
+#centrar {
+    display: flex;
+    justify-content: center;
+
+    @include media-up(xxsm) {
+        display: block;
+    }
+    @include media-up(xsm) {
+        display: block;
+    }
+    @include media-up(sm) {
+        display: block;
+    }
+    @include media-up(md) {
+        display: block;
+    }
+    @include media-up(lg) {
+        display: flex;
+    }
+}
+
+.index-nav {
+    grid-area: index-nav;
+
+    .menu-btn {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background-color: #531919;
+        height: 52px;
+        
+        @include media-up(lg){
+            display: none
+        }
+        .hamburger-btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .img-menu {
+            width: 52px;
+        }
+        #check {
+            display: visible;
+            &:checked ~ .nav-list {
+                background: green;
+                min-height: 100vh;
+                li {
+                    visibility: visible;
+                }
+            }
+        }
+    }
+
+    .nav-list {
+        background-color: $almostgray;
+        font-size: 2rem;
+        padding: 8px 0px;
+        @include media-up(xxsm){}
+        @include media-up(xsm){
+            font-size: 1.5rem;}
+        @include media-up(sm){
+            font-size: 1.8rem;
+        }
+        @include media-up(md){
+            font-size: 2rem;
+        }
+        @include media-up(lg){
+            font-size: 2rem;}
+    }
+    .angle {
+        display: none;
+    }
+    .nav-list__item {
+        position: relative;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 0 10px;
+
+        @include media-up(xxsm) {
+            display: block;
+            padding: 2px 10px;
+            border-bottom: 2px solid #77777786;
+        }
+        @include media-up(xsm) {
+            display: block;
+            padding: 2px 10px;
+            border-bottom: 2px solid #77777786;
+        }
+        @include media-up(sm) {
+            display: block;
+            padding: 2px 10px;
+            border-bottom: 2px solid #77777786;
+        }
+        @include media-up(md) {
+            display: block;
+            padding: 2px 10px;
+            border-bottom: 2px solid #77777786;
+        }
+        @include media-up(lg) {
+            padding: 0px 10px;
+            border: none;
+        }
+    }
+
+    a {
+        color: $lightgray;
+        &:hover {
+            color: $lightred;
+            padding-bottom: 8px;
+        }
+    }
+    .nav-list .nav-list__item:hover ul {
+        display: block;
+    }
+}

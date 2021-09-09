@@ -1,0 +1,55 @@
+@import "tools/colors";
+header {
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-area: logo-container;
+        width: 100%;
+        background-color: $darkred;
+        .logo-body {
+            width: 70%;
+
+            a {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                visibility: hidden;
+                .logo {
+                    margin-left: 46px;
+                    width: 80px;
+                    visibility: visible;
+                }
+            }
+        }
+
+        .nav-listcontainer {
+            grid-area: nav-listcontainer;
+
+            .nav-listheader {
+                width: 100%;
+                height: inherit;
+                font-size: 2rem;
+                color: $black;
+                &__item a {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    p {
+                        color: #ffffff;
+                        font-size: 1.5rem;
+                        &:hover {
+                            color: #aaaaaa;
+                        }
+                    }
+
+                }
+                .logo-login {
+                    visibility: visible;
+                    width: 25px;
+                }
+            }
+        }
+    }
+}

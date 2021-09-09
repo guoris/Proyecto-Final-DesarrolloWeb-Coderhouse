@@ -1,0 +1,277 @@
+// IMPORTS
+@import "../tools/colors";
+@import "../tools/responsive";
+// VARIABLES
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "header" "main" "footer";
+
+    .index-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "index-banner" "banner-bottom" "p-container" "title-container";
+
+        .index-banner {
+            grid-area: index-banner;
+            .banner {
+                grid-area: header;
+                width: 100%;
+                height: auto;
+                border-bottom: 4px solid #702626;
+                @include media-up(xxsm){
+                    display: none;
+                }
+                @include media-up(xsm){
+                    display: none;
+                }
+                @include media-up(sm){
+                    display: none;
+                }
+                @include media-up(md){
+                    display: none;
+                }
+                @include media-up(lg){
+                    display: block;
+                }
+            }
+            .banner-mobile {
+                display: none;
+                @include media-up(xxsm){
+                    display: block;
+                    width: 100%;
+                    border-bottom: 4px solid #702626;
+                }
+                @include media-up(xsm){
+                    display: block;
+                    width: 100%;
+                    border-bottom: 4px solid #702626;
+                }
+                @include media-up(sm){
+                    display: block;
+                    width: 100%;
+                    border-bottom: 4px solid #702626;
+                }
+                @include media-up(md){
+                    display: block;
+                    width: 100%;
+                    border-bottom: 4px solid #702626;
+                }
+                @include media-up(lg){
+                    display: none;
+                }
+            }
+            .positionbtn {
+                position: absolute;
+                top: 44%;
+                left: 46%;
+            }
+            .topbtn {
+                width: auto;
+                height: auto;
+                &__btn {
+                    position: relative;
+                    color: #ffffff;
+                    font-size: 20px;
+                    padding: 9px 27px;
+                    border-radius: 40px;
+                    border: 3px solid #434343;
+                    background: rgba(67, 67, 67, 1);
+                }
+                &__btn:hover {
+                    color: #000000;
+                    border: 3px solid #ffffff;
+                    background: rgba(255, 255, 255, 1);
+                }
+            }
+        }
+
+        .banner-bottom {
+            grid-area: banner-bottom;
+            .bannerdw {
+                width: 100%;
+                height: auto;
+                margin-top: 3%;
+            }
+        }
+        a {
+            color: inherit;
+        }
+        .p-container {
+            grid-area: p-container;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+            .p-container2 {
+                display: flex;
+                width: 86rem;
+                align-items: center;
+                border: 3px solid #a02727;
+                box-shadow: 13px 13px 4px 0px #0000008a;
+                @include media-up(xxsm) {
+                    width: 35rem;
+                }
+                @include media-up(xsm) {
+                    width: 35rem;
+                }
+                @include media-up(sm) {
+                    width: 45rem;
+                }
+                @include media-up(md) {
+                    width: 60rem;
+                }
+                @include media-up(lg) {
+                    width: 86rem;
+                }
+            }
+            &__txt > p {
+                margin-top: 1.5rem;
+                margin-bottom: 3rem;
+                text-align: center;
+                @include media-up(xxsm) {
+                    margin-top: 0.5rem;
+                    margin-bottom: 1rem;
+                }
+                @include media-up(xsm) {
+                    margin-top: 0.5rem;
+                    margin-bottom: 1rem;
+                }
+                @include media-up(lg) {
+                    margin-top: 1.5rem;
+                    margin-bottom: 3rem;
+                }
+            }
+            p {
+                font-size: 2rem;
+                text-shadow: #434343ab 1px 1px;
+                color: #a02727;
+                @include media-up(xxsm){
+                    text-shadow: #434343ab .5px .5px;
+                    font-size: 1.5rem;
+                }
+                @include media-up(xsm) {
+                    text-shadow: #434343ab .5px .5px;
+                    font-size: 1.5rem;
+                }
+                @include media-up(sm) {
+                    text-shadow: #434343ab 1px 1px;
+                    font-size: 1.7rem;
+                }
+                @include media-up(md) {
+                    text-shadow: #434343ab 1px 1px;
+                    font-size: 2rem;
+                }
+                @include media-up(lg) {
+                    text-shadow: #434343ab 1px 1px;
+                    font-size: 2rem;
+                }
+            }
+        }
+        .vh {
+            height: 50vh;
+        }
+        .title-container {
+            grid-area: title-container;
+            background-color: #a02727;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+
+            &__box {
+                display: grid;
+                justify-items: center;
+                width: 100%;
+            }
+            &__txt {
+                font-size: 4rem;
+                color: #ffffff;
+                text-shadow: #0000007a 3px 3px;
+                background-color: #702626;
+                text-align: center;
+                height: 50px;
+                width: 100%;
+                @include media-up(xxsm){
+                    font-size: 2.6rem;
+                    padding-top: 9px;
+                }
+                @include media-up(xsm) {
+                    font-size: 2.9rem;
+                    padding-top: 8px;
+                }
+                @include media-up(sm) {
+                    padding-top: 3px;
+                    font-size: 3.8rem;
+                }
+                @include media-up(md) {
+                    padding: 0;
+                    font-size: 4rem;
+                }
+                @include media-up(lg) {
+                    padding: 0;
+                    font-size: 4rem;
+                }
+            }
+            p {
+                text-align: left;
+                font-weight: 300;
+                color: #ffffff;
+            }
+            .logobtm-container {
+                width: 180px;
+                height: auto;
+                @include media-up(xxsm){
+                    width: 110px
+                }
+                @include media-up(xsm){
+                    width: 110px
+                }
+                @include media-up(sm){
+                    width: 130px;
+                }
+                @include media-up(hh) {
+                    width: 140px;
+                }
+                @include media-up(md){
+                    width: 180px;
+                }
+                @include media-up(lg){
+                    width: 180px;
+                }
+            }
+            .txt {
+                font-size: 2.5rem;
+                width: 81rem;
+                @include media-up(xxsm){}
+                    font-size: 1.4rem;
+                    width: 31rem;
+                @include media-up(xsm){
+                    font-size: 1.4rem;
+                    width: 31rem;
+                }
+                @include media-up(sm){
+                    font-size: 1.5rem;
+                    width: 48rem;
+                }
+                @include media-up(hh) {
+                    font-size: 1.7rem;
+                    width: 56rem;
+                }
+                @include media-up(md){
+                    font-size: 2rem;
+                    width: 65rem;
+                }
+                @include media-up(lg){
+                    font-size: 2.5rem;
+                    width: 81rem;
+                }
+            }
+            .titlebold-container {
+                font-weight: 700;
+            }
+        }
+    }
+}

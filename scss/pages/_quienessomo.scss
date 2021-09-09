@@ -1,0 +1,111 @@
+#go-somos {
+    min-height: 100vh;
+    background: #eeeeee;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    @include media-up(xxsm) {
+        flex-direction: column;
+    }
+    @include media-up(xsm) {
+        flex-direction: column;
+    }
+    @include media-up(sm) {
+        flex-direction: column;
+    }
+    @include media-up(md) {
+        flex-direction: column;
+    }
+    @include media-up(lg) {
+        flex-direction: row;
+    }
+
+    .somos-container {
+        width: 84rem;
+
+        @include media-up(xxsm) {
+            width: 29rem;
+        }
+        @include media-up(xsm) {
+            width: 35rem;
+        }
+        @include media-up(sm) {
+            width: 47rem;
+        }
+        @include media-up(md) {
+            width: 63rem;
+        }
+        @include media-up(lg) {
+            margin-left: 65px;
+            width: 74rem;
+        }
+        .somos-container__2 p {
+            text-align: left;
+            font-size: 1.9rem;
+            padding: 20px 0px;
+
+            @include media-up(xxsm) {
+                font-size: 1.5rem;
+                padding: 10px 0px;
+            }
+            @include media-up(xsm) {
+                font-size: 1.6rem;
+                padding: 12px 0px;
+            }
+            @include media-up(sm) {
+                font-size: 1.7rem;
+                padding: 14px 0px;
+            }
+            @include media-up(md) {
+                font-size: 1.8rem;
+                padding: 16px 0px;
+            }
+            @include media-up(lg) {
+                font-size: 1.9rem;
+                padding: 20px 0px;
+            }
+        }
+    }
+
+    .img-container {
+        width: 50rem;
+
+        .somos-fs {
+            display: flex;
+            justify-content: center;
+
+            .img2-container {
+                display: flex;
+                flex-direction: column;
+                border: 1px solid black;
+                padding: 10px;
+                box-shadow: 1px 1px 1px #0000004a;
+                transition: box-shadow 1s;
+
+                &:hover {
+                    animation-name: scale;
+                    animation-iteration-count: 1;
+                    animation-timing-function: ease-in-out;
+                    animation-duration: 1s;
+                    animation-delay: 0s;
+                    animation-fill-mode: forwards;
+                    box-shadow: 6px 6px 4px #0000004a;
+                }
+            }
+
+            @keyframes scale {
+                to {
+                    transform: scale(1.2, 1.2);
+                }
+            }
+
+            .somos-fs__container {
+                width: 278px;
+                font-size: 1.3rem;
+                padding-top: 5px;
+                font-weight: 700;
+            }
+        }
+    }
+}

@@ -1,0 +1,37 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+
+    .main-container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 48%;
+
+        .main-container__title {
+            text-align: center;
+            color: #ffffff;
+            font-size: 3rem;
+            width: 100%;
+        }
+
+        .main-container__btn {
+            color: #ffffff;
+            font-size: 20px;
+            padding: 6px 6px;
+            border-radius: 40px;
+            border: 3px solid #ffffff;
+            z-index: 999999;
+            background: rgba(0, 0, 0, 0);
+        }
+        .main-container__btn:hover {
+            color: #000000;
+            background: #FFFFFF;
+        }
+    }
+
+}

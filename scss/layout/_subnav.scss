@@ -1,0 +1,43 @@
+.bg-black100 {
+    background-color: $black;
+}
+.nav-list__sub {
+    border-radius: 10px;
+    width: 19rem;
+    background-color: $darkgray;
+    display: none;
+    position: absolute;
+    margin-top: 8px;
+    padding: 10px;
+    z-index: 20;
+
+    .triangle {
+        position: absolute;
+        top: -7px;
+        left: 31px;
+        border-bottom: 10px solid $darkgray;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+    }
+
+    .bg-black {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 2vh;
+    }
+
+    .nav-list__subitem {
+        margin: 5px 0px;
+        border-bottom: 1px solid $lightgray;
+        display: block;
+        position: relative;
+
+        a {
+            color: $white;
+            font-size: 1.6rem;
+            &:hover {
+                color: $lightred;
+                padding-bottom: 8px;
+            }
+        }
+    }
+}

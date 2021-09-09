@@ -1,0 +1,57 @@
+.idea-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 81vh;
+    background: #eeeeee;
+
+    .idea-container__box {
+        color: #a02727;
+        font-size: 2rem;
+        width: 105rem;
+        padding: 30px;
+        border: 5px solid #a02727;
+        box-shadow: 5px 5px 5px 0px #00000082;
+
+        @include media-up(xxsm){
+            font-size: 1.4rem;
+            width: 30rem;
+            padding: 15px;
+        }
+        @include media-up(xsm){
+            font-size: 1.4rem;
+            width: 34rem;
+            padding: 15px;
+        }
+        @include media-up(sm){        
+            font-size: 1.5rem;
+            width: 48rem;
+        }
+        @include media-up(md){
+            font-size: 1.7rem;
+            width: 64rem;
+        }
+        @include media-up(lg){
+            width: 86rem;
+        }
+
+        &__box h3 {
+            font-size: 3rem;
+            text-decoration: underline;
+        }
+
+        .d-flex {
+            min-height: 81vh;
+            background: #eeeeee;
+        }
+
+        .quotes {
+            font-size: 5rem;
+
+            .n {
+                font-weight: 600;
+                font-size: 4rem;
+            }
+        }
+    }
+}

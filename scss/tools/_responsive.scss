@@ -1,0 +1,27 @@
+$breakpoints : (
+    xxsm : 375px,
+    xsm : 420px,
+    sm : 540px,
+    hh : 630px,
+    md : 768px,
+    lg : 1024px,
+    xl : 1366px,
+);
+@mixin media-up($breakpoint) {
+    @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+}
+// @include media-up(xxsm){}
+// @include media-up(xsm){}
+// @include media-up(sm){}
+// @include media-up(md){}
+// @include media-up(hh){}
+// @include media-up(lg){}
+// @include media-up(xl){}
+
+// @include media-up(xxsm){}
+// @include media-up(xsm){}
+// @include media-up(sm){}
+// @include media-up(md){}
+// @include media-up(lg){}
