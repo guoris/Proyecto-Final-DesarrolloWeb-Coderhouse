@@ -60,68 +60,82 @@
             </section>
             <section class="form-body">
                 <form action="#" id="go-contact">
-                    <h2>Contacto</h2>
-                    <label for="gender">Curso:</label>
-                    <select name="levels" required="">
-                        <optgroup label="Niveles">
-                            <option value="1">Nivel Inicial</option>
-                            <option value="2">Nivel Primario</option>
-                            <option value="3">Nivel Secundario</option>
-                        </optgroup>
-                    </select>
-                    <label for="gender">Nacionalidad:</label>
-                    <select name="nation" required="">
-                        <option value="null">Seleccione por favor</option>
-                        <option value="al">Alemania</option>
-                        <option value="and">Andorra</option>
-                        <option value="ang">Angola</option>
-                        <option value="ar">Argentina</option>
-                        <option value="be">Belgica</option>
-                        <option value="bo">Bolivia</option>
-                        <option value="br">Brasil</option>
-                        <option value="bu">Bulgaria</option>
-                        <option value="ca">Canada</option>
-                        <option value="ch">Chile</option>
-                        <option value="co">Colombia</option>
-                        <option value="cr">Costa Rica</option>
-                        <option value="ec">Ecuador</option>
-                        <option value="es">España</option>
-                        <option value="eu">Estados Unidos</option>
-                        <option value="fi">Finlandia</option>
-                        <option value="fr">Francia</option>
-                        <option value="gu">Guatemala</option>
-                        <option value="ho">Honduras</option>
-                        <option value="im">Islas Malvinas</option>
-                        <option value="li">Lituania</option>
-                        <option value="ms">Marruecos</option>
-                        <option value="mx">Mexico</option>
-                        <option value="mo">Monaco</option>
-                        <option value="ni">Nigeria</option>
-                        <option value="no">Noruega</option>
-                        <option value="py">Paraguay</option>
-                        <option value="po">Portugal</option>
-                        <option value="rc">Repulica Checa</option>
-                        <option value="ru">Rusia</option>
-                        <option value="se">Serbia</option>
-                        <option value="su">Suiza</option>
-                        <option value="uy">Uruguay</option>
-                        <option value="ve">Venezuela</option>
-                    </select><br>
-                    <input type="text" name="name" class="form-contact" placeholder="Nombre/s" required="">
-                    <input type="text" name="surname" class="form-contact" placeholder="Apelido/s" required=""><br>
-                    <input type="email" name="email" class="form-contact" placeholder="Correo Electronico" required="">
-                    <input type="tel" name="tel" class="form-contact" placeholder="Telefono" required=""><br>
-                    <textarea name="textarea" class="form-textarea" id="" cols="48" rows="10" placeholder="Algo que quieras agregar"></textarea>
-                    <select name="gender">
-                        <option value="0">Seleccione por favor</option>
-                        <option value="male">Masculino</option>
-                        <option value="female">Femenino</option>
-                        <option value="other">Otro</option>
-                    </select><br>
-                    <label for="checkbox">Quieres que te llamemos?</label>
-                        <input type="checkbox" name="checkbox">Si<br>
-                        <input type="reset" class="form-btnres" value="Reiniciar">
-                        <input type="submit" class="form-btnsub" value="Enviar">
+                    <h2 class="form-title">Contacto</h2>
+                    <div class="form-user">
+                        <label for="gender" class="opt">Curso:</label>
+                        <select name="levels" class="select-opts" required="">
+                            <optgroup label="Niveles">
+                                <option value="1">Nivel Inicial</option>
+                                <option value="2">Nivel Primario</option>
+                                <option value="3">Nivel Secundario</option>
+                            </optgroup>
+                        </select>
+                        <label for="gender" class="opt">Nacionalidad:</label>
+                        <select name="nation" class="select-opts" required="">
+                            <option value="null">Seleccione por favor</option>
+                            <option value="al">Alemania</option>
+                            <option value="and">Andorra</option>
+                            <option value="ang">Angola</option>
+                            <option value="ar">Argentina</option>
+                            <option value="be">Belgica</option>
+                            <option value="bo">Bolivia</option>
+                            <option value="br">Brasil</option>
+                            <option value="bu">Bulgaria</option>
+                            <option value="ca">Canada</option>
+                            <option value="ch">Chile</option>
+                            <option value="co">Colombia</option>
+                            <option value="cr">Costa Rica</option>
+                            <option value="ec">Ecuador</option>
+                            <option value="es">España</option>
+                            <option value="eu">Estados Unidos</option>
+                            <option value="fi">Finlandia</option>
+                            <option value="fr">Francia</option>
+                            <option value="gu">Guatemala</option>
+                            <option value="ho">Honduras</option>
+                            <option value="im">Islas Malvinas</option>
+                            <option value="li">Lituania</option>
+                            <option value="ms">Marruecos</option>
+                            <option value="mx">Mexico</option>
+                            <option value="mo">Monaco</option>
+                            <option value="ni">Nigeria</option>
+                            <option value="no">Noruega</option>
+                            <option value="py">Paraguay</option>
+                            <option value="po">Portugal</option>
+                            <option value="rc">Repulica Checa</option>
+                            <option value="ru">Rusia</option>
+                            <option value="se">Serbia</option>
+                            <option value="su">Suiza</option>
+                            <option value="uy">Uruguay</option>
+                            <option value="ve">Venezuela</option>
+                        </select><br>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-contact" placeholder="Nombre/s" required="">
+                        <input type="text" name="surname" class="form-contact" placeholder="Apelido/s" required=""><br>
+                        <input type="email" name="email" class="form-contact" placeholder="Correo Electronico" required="">
+                        <input type="tel" name="tel" class="form-contact" placeholder="Telefono" required=""><br>
+                        <div class="form-grouparea">
+                            <textarea name="textarea" class="form-textarea" id="" cols="80" rows="10" placeholder="Algo que quieras agregar"></textarea>
+                        </div>
+                    </div>
+                    <div class="gender-group">
+                        <select class="select-opt" name="gender">
+                            <option class="value-opt" value="0">Seleccione por favor</option>
+                            <option class="value-opt" value="male">Masculino</option>
+                            <option class="value-opt" value="female">Femenino</option>
+                            <option class="value-opt" value="other">Otro</option>
+                        </select>
+                    </div>
+                    <div class="quest-info">
+                        <label class="add-info" for="checkbox">Quieres que te llamemos?</label>
+                        <input type="checkbox" name="checkbox" value="si">Si
+                    </div>
+                        <div class="buttons">
+                            <div class="btn-body">
+                                <input type="reset" class="form-btnres" value="Reiniciar">
+                                <input type="submit" class="form-btnsub" value="Enviar">
+                            </div>
+                        </div>
                 </form>
             </section>
         </main>
