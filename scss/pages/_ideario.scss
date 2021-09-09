@@ -32,7 +32,8 @@
             width: 64rem;
         }
         @include media-up(lg){
-            width: 86rem;
+            font-size: 2rem;
+            width: 105rem;
         }
 
         &__box h3 {

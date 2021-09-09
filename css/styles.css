@@ -829,7 +829,8 @@ header .logo-container {
         width: 64rem; } }
     @media screen and (min-width: 1024px) {
       .idea-container .idea-container__box {
-        width: 86rem; } }
+        font-size: 2rem;
+        width: 105rem; } }
     .idea-container .idea-container__box__box h3 {
       font-size: 3rem;
       text-decoration: underline; }
