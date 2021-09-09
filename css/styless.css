@@ -696,6 +696,12 @@ header .logo-container {
   padding: 5px 11px;
   border: 1px solid #702626; }
 
+.form-btnres:hover {
+  background-color: #c8c8c8; }
+
+.form-btnsub:hover {
+  background-color: #8d3a3a; }
+
 .idea-container {
   display: flex;
   justify-content: center;
