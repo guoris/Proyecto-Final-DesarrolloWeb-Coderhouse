@@ -650,151 +650,251 @@ header .logo-container {
       .grid-container .index-main .title-container .titlebold-container {
         font-weight: 700; }
 
-#go-contact {
-  background: #ffffff5c;
-  border-radius: 31px;
-  padding: 40px; }
-
 .form-body {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh; }
-
-.form-title {
-  color: #702626;
-  font-size: 5rem;
-  width: 30rem;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto; }
-
-.form-grouparea {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%; }
-
-.form-contact {
-  width: 50rem;
-  height: 40px;
-  border: 2px solid #dcdcdc;
-  border-radius: 15px;
-  background-color: #ffffff;
-  color: #702626;
-  font-weight: 600;
-  padding-left: 25px;
-  outline: none;
-  margin: 5px 5px; }
-
-.form-contact::placeholder {
-  color: #702626; }
-
-.value-opt {
-  color: #702626;
-  font-weight: 600;
-  border: 2px solid #702626; }
-
-.value-opt:hover {
-  background-color: #702626; }
-
-.form-contact:hover {
-  background-color: #f6f6f6; }
-
-.form-textarea {
-  border: 2px solid #dcdcdc;
-  border-radius: 15px;
-  background-color: #ffffff;
-  color: #702626;
-  font-weight: 600;
-  outline: none;
-  padding: 15px; }
-
-.form-textarea::placeholder {
-  color: #702626; }
-
-.form-textarea:hover {
-  background-color: #f6f6f6; }
-
-.quest-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%; }
-
-.add-info {
-  font-size: 2.2rem; }
-
-.form-btnres {
-  font-size: 2rem;
-  color: #702626;
-  background-color: #ffffff;
-  border-radius: 25px;
-  padding: 5px 11px;
-  border: 1px solid #ffffff;
-  margin-right: 10px; }
-
-.form-btnsub {
-  font-size: 2rem;
-  color: #ffffff;
-  background-color: #702626;
-  border-radius: 25px;
-  padding: 5px 11px;
-  border: 1px solid #702626;
-  margin-left: 10px; }
-
-.form-btnres:hover {
-  background-color: #e8e8e8;
-  border: 1px solid #e8e8e8; }
-
-.gender-group {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.select-opt {
-  border: 1px solid #ffffff;
-  border-radius: 6px;
-  width: 170px;
-  height: 30px;
-  outline: none;
-  margin: 10px 0px; }
-
-.select-opt:hover {
-  border: 2px solid #dfdfdf; }
-
-.select-opts {
-  border: 1px solid #ffffff;
-  border-radius: 6px;
-  width: 170px;
-  height: 30px;
-  outline: none;
-  margin: 5px 0px; }
-
-.select-opts:hover {
-  border: 2px solid #dfdfdf; }
-
-.opt {
-  font-size: 2rem; }
-
-.form-user {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.form-btnsub:hover {
-  background-color: #942525;
-  border: 1px solid #942525; }
-
-.buttons {
-  width: 100%; }
-
-.btn-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row; }
+  @media screen and (min-width: 375px) {
+    .form-body {
+      min-height: 130vh; } }
+  @media screen and (min-width: 420px) {
+    .form-body {
+      min-height: 130vh; } }
+  @media screen and (min-width: 540px) {
+    .form-body {
+      min-height: 130vh; } }
+  @media screen and (min-width: 768px) {
+    .form-body {
+      min-height: 130vh; } }
+  @media screen and (min-width: 1024px) {
+    .form-body {
+      min-height: 100vh; } }
+  .form-body .go-contact {
+    background: #ffffff5c;
+    border-radius: 31px;
+    padding: 40px; }
+    @media screen and (min-width: 375px) {
+      .form-body .go-contact {
+        padding: 20px; } }
+    @media screen and (min-width: 420px) {
+      .form-body .go-contact {
+        padding: 20px; } }
+    @media screen and (min-width: 540px) {
+      .form-body .go-contact {
+        padding: 20px; } }
+    @media screen and (min-width: 768px) {
+      .form-body .go-contact {
+        padding: 40px; } }
+    @media screen and (min-width: 1024px) {
+      .form-body .go-contact {
+        padding: 40px; } }
+    .form-body .go-contact .form-title {
+      color: #702626;
+      font-size: 5rem;
+      width: 30rem;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto; }
+    .form-body .go-contact .form-user {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .form-body .go-contact .form-user .opt {
+        color: #702626;
+        font-size: 2rem; }
+      .form-body .go-contact .form-user .select-opts {
+        border: 1px solid #ffffff;
+        border-radius: 6px;
+        width: 170px;
+        height: 30px;
+        outline: none;
+        margin: 5px 0px; }
+        .form-body .go-contact .form-user .select-opts:hover {
+          border: 2px solid #dfdfdf; }
+    .form-body .go-contact .form-group {
+      display: block; }
+      @media screen and (min-width: 375px) {
+        .form-body .go-contact .form-group {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; } }
+      @media screen and (min-width: 420px) {
+        .form-body .go-contact .form-group {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; } }
+      @media screen and (min-width: 540px) {
+        .form-body .go-contact .form-group {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; } }
+      @media screen and (min-width: 768px) {
+        .form-body .go-contact .form-group {
+          display: block; } }
+      @media screen and (min-width: 1024px) {
+        .form-body .go-contact .form-group {
+          display: block; } }
+      .form-body .go-contact .form-group .form-contact {
+        width: 50rem;
+        height: 40px;
+        border: 2px solid #dcdcdc;
+        border-radius: 15px;
+        background-color: #ffffff;
+        color: #702626;
+        font-weight: 600;
+        padding-left: 25px;
+        outline: none;
+        margin: 5px 5px; }
+        .form-body .go-contact .form-group .form-contact::placeholder {
+          color: #702626; }
+        .form-body .go-contact .form-group .form-contact:hover {
+          background-color: #f6f6f6; }
+        @media screen and (min-width: 375px) {
+          .form-body .go-contact .form-group .form-contact {
+            width: 27rem; } }
+        @media screen and (min-width: 420px) {
+          .form-body .go-contact .form-group .form-contact {
+            width: 30rem; } }
+        @media screen and (min-width: 540px) {
+          .form-body .go-contact .form-group .form-contact {
+            width: 36rem; } }
+        @media screen and (min-width: 768px) {
+          .form-body .go-contact .form-group .form-contact {
+            width: 32rem; } }
+        @media screen and (min-width: 1024px) {
+          .form-body .go-contact .form-group .form-contact {
+            width: 45rem; } }
+      .form-body .go-contact .form-group .form-grouparea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%; }
+        .form-body .go-contact .form-group .form-grouparea .form-textarea {
+          border: 2px solid #dcdcdc;
+          border-radius: 15px;
+          background-color: #ffffff;
+          color: #702626;
+          font-weight: 600;
+          outline: none;
+          padding: 15px;
+          width: 65rem; }
+          .form-body .go-contact .form-group .form-grouparea .form-textarea::placeholder {
+            color: #702626; }
+          .form-body .go-contact .form-group .form-grouparea .form-textarea:hover {
+            background-color: #f6f6f6; }
+          @media screen and (min-width: 375px) {
+            .form-body .go-contact .form-group .form-grouparea .form-textarea {
+              width: 27rem; } }
+          @media screen and (min-width: 420px) {
+            .form-body .go-contact .form-group .form-grouparea .form-textarea {
+              width: 30rem; } }
+          @media screen and (min-width: 540px) {
+            .form-body .go-contact .form-group .form-grouparea .form-textarea {
+              width: 36rem; } }
+          @media screen and (min-width: 768px) {
+            .form-body .go-contact .form-group .form-grouparea .form-textarea {
+              width: 45rem; } }
+          @media screen and (min-width: 1024px) {
+            .form-body .go-contact .form-group .form-grouparea .form-textarea {
+              width: 65rem; } }
+    .form-body .go-contact .gender-group {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .form-body .go-contact .gender-group .select-opt {
+        border: 1px solid #ffffff;
+        border-radius: 6px;
+        width: 170px;
+        height: 30px;
+        outline: none;
+        margin: 10px 0px; }
+        .form-body .go-contact .gender-group .select-opt:hover {
+          border: 2px solid #dfdfdf; }
+        .form-body .go-contact .gender-group .select-opt .value-opt {
+          color: #702626;
+          font-weight: 600;
+          border: 2px solid #702626; }
+          .form-body .go-contact .gender-group .select-opt .value-opt:hover {
+            background-color: #702626; }
+    .form-body .go-contact .quest-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%; }
+      .form-body .go-contact .quest-info .add-info {
+        margin: 11px 0px;
+        color: #702626;
+        font-size: 2.2rem; }
+      .form-body .go-contact .quest-info input[type='checkbox'] {
+        position: relative;
+        display: block;
+        margin: 15px 0px 15px 17px;
+        cursor: pointer; }
+        .form-body .go-contact .quest-info input[type='checkbox']:before {
+          content: '';
+          display: block;
+          position: absolute;
+          top: -12px;
+          left: -23px;
+          height: 28px;
+          width: 46px;
+          background-color: #bbb;
+          border-radius: 14px;
+          transition: background-color .2s;
+          cursor: pointer; }
+        .form-body .go-contact .quest-info input[type='checkbox']:after {
+          content: '';
+          display: block;
+          position: absolute;
+          transition: transform .2s, -webkit-transform .2s;
+          top: -10px;
+          left: -21px;
+          border-radius: 12px;
+          box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+          background-color: #fff;
+          height: 24px;
+          width: 24px;
+          cursor: pointer; }
+        .form-body .go-contact .quest-info input[type='checkbox']:checked:before {
+          background-color: #4cd764; }
+        .form-body .go-contact .quest-info input[type='checkbox']:checked:after {
+          transform: translateX(18px);
+          -webkit-transform: translateX(18px); }
+    .form-body .go-contact .buttons {
+      width: 100%; }
+      .form-body .go-contact .buttons .btn-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row; }
+        .form-body .go-contact .buttons .btn-body .form-btnres {
+          font-size: 2rem;
+          color: #702626;
+          background-color: #ffffff;
+          border-radius: 25px;
+          padding: 5px 11px;
+          border: 1px solid #ffffff;
+          margin-right: 10px; }
+          .form-body .go-contact .buttons .btn-body .form-btnres:hover {
+            background-color: #e8e8e8;
+            border: 1px solid #e8e8e8; }
+        .form-body .go-contact .buttons .btn-body .form-btnsub {
+          font-size: 2rem;
+          color: #ffffff;
+          background-color: #702626;
+          border-radius: 25px;
+          padding: 5px 21px;
+          border: 1px solid #702626;
+          margin-left: 10px; }
+          .form-body .go-contact .buttons .btn-body .form-btnsub:hover {
+            background-color: #942525;
+            border: 1px solid #942525; }
 
 .idea-container {
   display: flex;
@@ -1112,7 +1212,7 @@ header .logo-container {
           width: 60rem; } }
       @media screen and (min-width: 1024px) {
         .txt-container .level1 .level1-container {
-          width: 115rem; } }
+          width: 93rem; } }
       .txt-container .level1 .level1-container #level1c {
         color: #6ab89c;
         font-size: 3rem; }
@@ -1155,7 +1255,7 @@ header .logo-container {
           width: 60rem; } }
       @media screen and (min-width: 1024px) {
         .txt-container .level2 .level2-container {
-          width: 115rem; } }
+          width: 93rem; } }
       .txt-container .level2 .level2-container #level2c {
         color: #ffb244;
         font-size: 3rem;
@@ -1200,7 +1300,7 @@ header .logo-container {
           width: 60rem; } }
       @media screen and (min-width: 1024px) {
         .txt-container .level3 .level3-container {
-          width: 115rem; } }
+          width: 93rem; } }
       .txt-container .level3 .level3-container #level3c {
         color: #ff447d;
         font-size: 3rem;

@@ -20,8 +20,8 @@ $breakpoints : (
 // @include media-up(lg){}
 // @include media-up(xl){}
 
-// @include media-up(xxsm){}
-// @include media-up(xsm){}
-// @include media-up(sm){}
-// @include media-up(md){}
-// @include media-up(lg){}
+@include media-up(xxsm){}
+@include media-up(xsm){}
+@include media-up(sm){}
+@include media-up(md){}
+@include media-up(lg){}
