@@ -127,7 +127,6 @@
                 @include media-up(lg){
                     width: 45rem;
                 }
-
             }
             .form-grouparea {
                 display: flex;
@@ -221,7 +220,6 @@
                   transition: background-color .2s;
                   cursor: pointer;
                 }
-                
                 &:after {
                   content: '';
                   display: block;
