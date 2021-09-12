@@ -113,7 +113,7 @@
                 border: 3px solid #a02727;
                 box-shadow: 13px 13px 4px 0px #0000008a;
                 @include media-up(xxsm) {
-                    width: 35rem;
+                    width: 28rem;
                 }
                 @include media-up(xsm) {
                     width: 35rem;
@@ -151,7 +151,7 @@
                 color: #a02727;
                 @include media-up(xxsm){
                     text-shadow: #434343ab .5px .5px;
-                    font-size: 1.5rem;
+                    font-size: 1.4rem;
                 }
                 @include media-up(xsm) {
                     text-shadow: #434343ab .5px .5px;
@@ -195,8 +195,8 @@
                 height: 50px;
                 width: 100%;
                 @include media-up(xxsm){
-                    font-size: 2.6rem;
-                    padding-top: 9px;
+                    font-size: 2.2rem;
+                    padding-top: 13px;
                 }
                 @include media-up(xsm) {
                     font-size: 2.9rem;
@@ -246,8 +246,8 @@
                 font-size: 2.5rem;
                 width: 81rem;
                 @include media-up(xxsm){}
-                    font-size: 1.4rem;
-                    width: 31rem;
+                    font-size: 1.3rem;
+                    width: 28rem;
                 @include media-up(xsm){
                     font-size: 1.4rem;
                     width: 31rem;

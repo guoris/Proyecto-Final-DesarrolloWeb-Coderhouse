@@ -60,9 +60,12 @@
         background-color: $almostgray;
         font-size: 2rem;
         padding: 8px 0px;
-        @include media-up(xxsm){}
+        @include media-up(xxsm){
+            font-size: 1.5rem;
+        }
         @include media-up(xsm){
-            font-size: 1.5rem;}
+            font-size: 1.5rem;
+        }
         @include media-up(sm){
             font-size: 1.8rem;
         }

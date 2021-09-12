@@ -6,18 +6,23 @@
     flex-direction: row;
     align-items: center;
     @include media-up(xxsm) {
+        min-height: 155vh;
         flex-direction: column;
     }
     @include media-up(xsm) {
+        min-height: 100vh;
         flex-direction: column;
     }
     @include media-up(sm) {
+        min-height: 100vh;
         flex-direction: column;
     }
     @include media-up(md) {
+        min-height: 100vh;
         flex-direction: column;
     }
     @include media-up(lg) {
+        min-height: 100vh;
         flex-direction: row;
     }
 
@@ -25,7 +30,7 @@
         width: 84rem;
 
         @include media-up(xxsm) {
-            width: 29rem;
+            width: 27rem;
         }
         @include media-up(xsm) {
             width: 35rem;
@@ -46,7 +51,7 @@
             padding: 20px 0px;
 
             @include media-up(xxsm) {
-                font-size: 1.5rem;
+                font-size: 1.4rem;
                 padding: 10px 0px;
             }
             @include media-up(xsm) {
