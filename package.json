@@ -1,7 +1,7 @@
 {
-  "name": "clase-11",
+  "name": "proyecto-final-coderhouse-felipe-giancola",
   "version": "1.0.0",
-  "description": "",
+  "description": "Archivo para compilar SCSS by Felipe Giancola",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
 
   },
-  "author": "",
+  "author": "Felipe Giancola",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^6.0.1",
