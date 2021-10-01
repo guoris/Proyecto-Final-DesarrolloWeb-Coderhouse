@@ -75,6 +75,22 @@
 
     .img-container {
         width: 50rem;
+        
+        @include media-up(xxsm){
+            width: 0px;
+        }
+        @include media-up(xsm){
+            width: 0px;
+        }
+        @include media-up(sm){
+            width: 0px;
+        }
+        @include media-up(md){
+            width: 50rem;
+        }
+        @include media-up(lg){
+            width: 50rem;
+        }
 
         .somos-fs {
             display: flex;
