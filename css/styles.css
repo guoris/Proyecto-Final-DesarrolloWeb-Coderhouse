@@ -2169,6 +2169,21 @@ header .logo-container {
     width: 450px;
     border: 1px solid #eeeeee;
     border-radius: 20px; }
+    @media screen and (min-width: 320px) {
+      .bg-container .user-container {
+        width: 290px; } }
+    @media screen and (min-width: 420px) {
+      .bg-container .user-container {
+        width: 380px; } }
+    @media screen and (min-width: 540px) {
+      .bg-container .user-container {
+        width: 450px; } }
+    @media screen and (min-width: 768px) {
+      .bg-container .user-container {
+        width: 450px; } }
+    @media screen and (min-width: 1024px) {
+      .bg-container .user-container {
+        width: 450px; } }
     .bg-container .user-container .userlogin-container {
       display: flex;
       align-items: center;
@@ -2176,6 +2191,21 @@ header .logo-container {
       margin-top: 25px; }
       .bg-container .user-container .userlogin-container h1 {
         font-size: 4rem; }
+        @media screen and (min-width: 320px) {
+          .bg-container .user-container .userlogin-container h1 {
+            font-size: 3.4rem; } }
+        @media screen and (min-width: 420px) {
+          .bg-container .user-container .userlogin-container h1 {
+            font-size: 4rem; } }
+        @media screen and (min-width: 540px) {
+          .bg-container .user-container .userlogin-container h1 {
+            font-size: 4rem; } }
+        @media screen and (min-width: 768px) {
+          .bg-container .user-container .userlogin-container h1 {
+            font-size: 4rem; } }
+        @media screen and (min-width: 1024px) {
+          .bg-container .user-container .userlogin-container h1 {
+            font-size: 4rem; } }
     .bg-container .user-container .form-login {
       display: flex;
       justify-content: center;
@@ -2186,6 +2216,21 @@ header .logo-container {
         font-size: 2.2rem;
         text-align: left;
         width: 300px; }
+        @media screen and (min-width: 320px) {
+          .bg-container .user-container .form-login h3 {
+            width: 230px; } }
+        @media screen and (min-width: 420px) {
+          .bg-container .user-container .form-login h3 {
+            width: 300px; } }
+        @media screen and (min-width: 540px) {
+          .bg-container .user-container .form-login h3 {
+            width: 300px; } }
+        @media screen and (min-width: 768px) {
+          .bg-container .user-container .form-login h3 {
+            width: 300px; } }
+        @media screen and (min-width: 1024px) {
+          .bg-container .user-container .form-login h3 {
+            width: 300px; } }
       .bg-container .user-container .form-login .login-body {
         width: 300px;
         height: 38px;
@@ -2194,9 +2239,39 @@ header .logo-container {
         padding: 0px 15px;
         outline: none;
         margin-bottom: 7px; }
+        @media screen and (min-width: 320px) {
+          .bg-container .user-container .form-login .login-body {
+            width: 250px; } }
+        @media screen and (min-width: 420px) {
+          .bg-container .user-container .form-login .login-body {
+            width: 300px; } }
+        @media screen and (min-width: 540px) {
+          .bg-container .user-container .form-login .login-body {
+            width: 300px; } }
+        @media screen and (min-width: 768px) {
+          .bg-container .user-container .form-login .login-body {
+            width: 300px; } }
+        @media screen and (min-width: 1024px) {
+          .bg-container .user-container .form-login .login-body {
+            width: 300px; } }
       .bg-container .user-container .form-login .pw-check {
         position: relative;
         right: 64px; }
+        @media screen and (min-width: 320px) {
+          .bg-container .user-container .form-login .pw-check {
+            right: 40px; } }
+        @media screen and (min-width: 420px) {
+          .bg-container .user-container .form-login .pw-check {
+            right: 64px; } }
+        @media screen and (min-width: 540px) {
+          .bg-container .user-container .form-login .pw-check {
+            right: 64px; } }
+        @media screen and (min-width: 768px) {
+          .bg-container .user-container .form-login .pw-check {
+            right: 64px; } }
+        @media screen and (min-width: 1024px) {
+          .bg-container .user-container .form-login .pw-check {
+            right: 64px; } }
         .bg-container .user-container .form-login .pw-check .pw-check-2 {
           font-size: 1.4rem; }
       .bg-container .user-container .form-login .login-btn__btn {
@@ -2226,14 +2301,79 @@ header .logo-container {
     height: 300px;
     background: linear-gradient(to bottom, #348AC7, #7474BF);
     border-radius: 20px; }
+    @media screen and (min-width: 320px) {
+      .bg-container .register-container {
+        width: 250px; } }
+    @media screen and (min-width: 420px) {
+      .bg-container .register-container {
+        width: 330px; } }
+    @media screen and (min-width: 540px) {
+      .bg-container .register-container {
+        width: 350px; } }
+    @media screen and (min-width: 768px) {
+      .bg-container .register-container {
+        width: 350px; } }
+    @media screen and (min-width: 1024px) {
+      .bg-container .register-container {
+        width: 350px; } }
     .bg-container .register-container .registerinfo-container h2 {
       font-size: 2.2rem;
       color: #ffffff; }
+      @media screen and (min-width: 320px) {
+        .bg-container .register-container .registerinfo-container h2 {
+          text-align: center; } }
+      @media screen and (min-width: 420px) {
+        .bg-container .register-container .registerinfo-container h2 {
+          text-align: left; } }
+      @media screen and (min-width: 540px) {
+        .bg-container .register-container .registerinfo-container h2 {
+          text-align: left; } }
+      @media screen and (min-width: 768px) {
+        .bg-container .register-container .registerinfo-container h2 {
+          text-align: left; } }
+      @media screen and (min-width: 1024px) {
+        .bg-container .register-container .registerinfo-container h2 {
+          text-align: left; } }
     .bg-container .register-container .registerinfo-container p {
       color: #ffffff;
-      font-size: 1.3rem; }
+      font-size: 1.4rem; }
+      @media screen and (min-width: 320px) {
+        .bg-container .register-container .registerinfo-container p {
+          text-align: center; } }
+      @media screen and (min-width: 420px) {
+        .bg-container .register-container .registerinfo-container p {
+          text-align: left; } }
+      @media screen and (min-width: 540px) {
+        .bg-container .register-container .registerinfo-container p {
+          text-align: left; } }
+      @media screen and (min-width: 768px) {
+        .bg-container .register-container .registerinfo-container p {
+          text-align: left; } }
+      @media screen and (min-width: 1024px) {
+        .bg-container .register-container .registerinfo-container p {
+          text-align: left; } }
     .bg-container .register-container .registerinfo-container .register-btn__btn {
       margin-top: 15px; }
+      @media screen and (min-width: 320px) {
+        .bg-container .register-container .registerinfo-container .register-btn__btn {
+          margin-top: 15px;
+          margin-left: 58px; } }
+      @media screen and (min-width: 420px) {
+        .bg-container .register-container .registerinfo-container .register-btn__btn {
+          margin-top: 15px;
+          margin-left: 0px; } }
+      @media screen and (min-width: 540px) {
+        .bg-container .register-container .registerinfo-container .register-btn__btn {
+          margin-top: 15px;
+          margin-left: 0px; } }
+      @media screen and (min-width: 768px) {
+        .bg-container .register-container .registerinfo-container .register-btn__btn {
+          margin-top: 15px;
+          margin-left: 0px; } }
+      @media screen and (min-width: 1024px) {
+        .bg-container .register-container .registerinfo-container .register-btn__btn {
+          margin-top: 15px;
+          margin-left: 0px; } }
       .bg-container .register-container .registerinfo-container .register-btn__btn .register-btn {
         background: #ffffff;
         font-size: 1.5rem;
@@ -2254,12 +2394,42 @@ header .logo-container {
   align-items: center;
   flex-direction: row;
   padding: 40px; }
+  @media screen and (min-width: 320px) {
+    .bg-body {
+      flex-direction: column; } }
+  @media screen and (min-width: 420px) {
+    .bg-body {
+      flex-direction: column; } }
+  @media screen and (min-width: 540px) {
+    .bg-body {
+      flex-direction: column; } }
+  @media screen and (min-width: 768px) {
+    .bg-body {
+      flex-direction: column; } }
+  @media screen and (min-width: 1024px) {
+    .bg-body {
+      flex-direction: row; } }
   .bg-body .user-body {
     background: #eeeeee;
     height: 650px;
     width: 450px;
     border: 1px solid #eeeeee;
     border-radius: 20px; }
+    @media screen and (min-width: 320px) {
+      .bg-body .user-body {
+        width: 290px; } }
+    @media screen and (min-width: 420px) {
+      .bg-body .user-body {
+        width: 380px; } }
+    @media screen and (min-width: 540px) {
+      .bg-body .user-body {
+        width: 450px; } }
+    @media screen and (min-width: 768px) {
+      .bg-body .user-body {
+        width: 450px; } }
+    @media screen and (min-width: 1024px) {
+      .bg-body .user-body {
+        width: 450px; } }
     .bg-body .user-body .userlogin-body {
       display: flex;
       align-items: center;
@@ -2267,6 +2437,21 @@ header .logo-container {
       margin-top: 25px; }
       .bg-body .user-body .userlogin-body h1 {
         font-size: 4rem; }
+        @media screen and (min-width: 320px) {
+          .bg-body .user-body .userlogin-body h1 {
+            font-size: 3.4rem; } }
+        @media screen and (min-width: 420px) {
+          .bg-body .user-body .userlogin-body h1 {
+            font-size: 4rem; } }
+        @media screen and (min-width: 540px) {
+          .bg-body .user-body .userlogin-body h1 {
+            font-size: 4rem; } }
+        @media screen and (min-width: 768px) {
+          .bg-body .user-body .userlogin-body h1 {
+            font-size: 4rem; } }
+        @media screen and (min-width: 1024px) {
+          .bg-body .user-body .userlogin-body h1 {
+            font-size: 4rem; } }
     .bg-body .user-body .form-register {
       display: flex;
       justify-content: center;
@@ -2283,6 +2468,21 @@ header .logo-container {
         padding: 0px 15px;
         outline: none;
         margin-bottom: 7px; }
+        @media screen and (min-width: 320px) {
+          .bg-body .user-body .form-register .register-body {
+            width: 250px; } }
+        @media screen and (min-width: 420px) {
+          .bg-body .user-body .form-register .register-body {
+            width: 300px; } }
+        @media screen and (min-width: 540px) {
+          .bg-body .user-body .form-register .register-body {
+            width: 300px; } }
+        @media screen and (min-width: 768px) {
+          .bg-body .user-body .form-register .register-body {
+            width: 300px; } }
+        @media screen and (min-width: 1024px) {
+          .bg-body .user-body .form-register .register-body {
+            width: 300px; } }
       .bg-body .user-body .form-register .form-line-2 h3 {
         font-size: 2.2rem; }
       .bg-body .user-body .form-register .form-line-2 .register-num__body {
@@ -2293,8 +2493,38 @@ header .logo-container {
         padding: 0px 15px;
         outline: none;
         margin-bottom: 7px; }
+        @media screen and (min-width: 320px) {
+          .bg-body .user-body .form-register .form-line-2 .register-num__body {
+            width: 81px; } }
+        @media screen and (min-width: 420px) {
+          .bg-body .user-body .form-register .form-line-2 .register-num__body {
+            width: 98px; } }
+        @media screen and (min-width: 540px) {
+          .bg-body .user-body .form-register .form-line-2 .register-num__body {
+            width: 98px; } }
+        @media screen and (min-width: 768px) {
+          .bg-body .user-body .form-register .form-line-2 .register-num__body {
+            width: 98px; } }
+        @media screen and (min-width: 1024px) {
+          .bg-body .user-body .form-register .form-line-2 .register-num__body {
+            width: 98px; } }
       .bg-body .user-body .form-register .form-line-3 {
         width: 302px; }
+        @media screen and (min-width: 320px) {
+          .bg-body .user-body .form-register .form-line-3 {
+            width: 250px; } }
+        @media screen and (min-width: 420px) {
+          .bg-body .user-body .form-register .form-line-3 {
+            width: 302px; } }
+        @media screen and (min-width: 540px) {
+          .bg-body .user-body .form-register .form-line-3 {
+            width: 302px; } }
+        @media screen and (min-width: 768px) {
+          .bg-body .user-body .form-register .form-line-3 {
+            width: 302px; } }
+        @media screen and (min-width: 1024px) {
+          .bg-body .user-body .form-register .form-line-3 {
+            width: 302px; } }
         .bg-body .user-body .form-register .form-line-3 h3 {
           font-size: 2.2rem; }
         .bg-body .user-body .form-register .form-line-3 .radio {
@@ -2302,11 +2532,41 @@ header .logo-container {
           margin-right: 6px; }
         .bg-body .user-body .form-register .form-line-3 .register-gen__body {
           margin-right: 26px; }
+          @media screen and (min-width: 320px) {
+            .bg-body .user-body .form-register .form-line-3 .register-gen__body {
+              margin-right: 9px; } }
+          @media screen and (min-width: 420px) {
+            .bg-body .user-body .form-register .form-line-3 .register-gen__body {
+              margin-right: 26px; } }
+          @media screen and (min-width: 540px) {
+            .bg-body .user-body .form-register .form-line-3 .register-gen__body {
+              margin-right: 26px; } }
+          @media screen and (min-width: 768px) {
+            .bg-body .user-body .form-register .form-line-3 .register-gen__body {
+              margin-right: 26px; } }
+          @media screen and (min-width: 1024px) {
+            .bg-body .user-body .form-register .form-line-3 .register-gen__body {
+              margin-right: 26px; } }
       .bg-body .user-body .form-register .form-terms {
         display: flex;
         width: 302px;
         justify-content: center;
         align-items: center; }
+        @media screen and (min-width: 320px) {
+          .bg-body .user-body .form-register .form-terms {
+            width: 250px; } }
+        @media screen and (min-width: 420px) {
+          .bg-body .user-body .form-register .form-terms {
+            width: 302px; } }
+        @media screen and (min-width: 540px) {
+          .bg-body .user-body .form-register .form-terms {
+            width: 302px; } }
+        @media screen and (min-width: 768px) {
+          .bg-body .user-body .form-register .form-terms {
+            width: 302px; } }
+        @media screen and (min-width: 1024px) {
+          .bg-body .user-body .form-register .form-terms {
+            width: 302px; } }
         .bg-body .user-body .form-register .form-terms p {
           font-size: 1.2rem; }
       .bg-body .user-body .form-register .register-btn__btn {
@@ -2332,16 +2592,81 @@ header .logo-container {
     width: 350px;
     height: 300px;
     background: linear-gradient(to bottom, #348ac7, #7474bf);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px; }
+    border: 20px;
+    border-radius: 20px; }
+    @media screen and (min-width: 320px) {
+      .bg-body .login-container {
+        width: 250px; } }
+    @media screen and (min-width: 420px) {
+      .bg-body .login-container {
+        width: 330px; } }
+    @media screen and (min-width: 540px) {
+      .bg-body .login-container {
+        width: 350px; } }
+    @media screen and (min-width: 768px) {
+      .bg-body .login-container {
+        width: 350px; } }
+    @media screen and (min-width: 1024px) {
+      .bg-body .login-container {
+        width: 350px; } }
     .bg-body .login-container .logininfo-container h2 {
       font-size: 3rem;
       color: #ffffff; }
+      @media screen and (min-width: 320px) {
+        .bg-body .login-container .logininfo-container h2 {
+          text-align: center; } }
+      @media screen and (min-width: 420px) {
+        .bg-body .login-container .logininfo-container h2 {
+          text-align: left; } }
+      @media screen and (min-width: 540px) {
+        .bg-body .login-container .logininfo-container h2 {
+          text-align: left; } }
+      @media screen and (min-width: 768px) {
+        .bg-body .login-container .logininfo-container h2 {
+          text-align: left; } }
+      @media screen and (min-width: 1024px) {
+        .bg-body .login-container .logininfo-container h2 {
+          text-align: left; } }
     .bg-body .login-container .logininfo-container p {
       color: #ffffff;
-      font-size: 1.3rem; }
+      font-size: 1.4rem; }
+      @media screen and (min-width: 320px) {
+        .bg-body .login-container .logininfo-container p {
+          text-align: center; } }
+      @media screen and (min-width: 420px) {
+        .bg-body .login-container .logininfo-container p {
+          text-align: left; } }
+      @media screen and (min-width: 540px) {
+        .bg-body .login-container .logininfo-container p {
+          text-align: left; } }
+      @media screen and (min-width: 768px) {
+        .bg-body .login-container .logininfo-container p {
+          text-align: left; } }
+      @media screen and (min-width: 1024px) {
+        .bg-body .login-container .logininfo-container p {
+          text-align: left; } }
     .bg-body .login-container .logininfo-container .login-btn__btn {
       margin-top: 15px; }
+      @media screen and (min-width: 320px) {
+        .bg-body .login-container .logininfo-container .login-btn__btn {
+          margin-top: 15px;
+          margin-left: 55px; } }
+      @media screen and (min-width: 420px) {
+        .bg-body .login-container .logininfo-container .login-btn__btn {
+          margin-top: 15px;
+          margin-left: 0px; } }
+      @media screen and (min-width: 540px) {
+        .bg-body .login-container .logininfo-container .login-btn__btn {
+          margin-top: 15px;
+          margin-left: 0px; } }
+      @media screen and (min-width: 768px) {
+        .bg-body .login-container .logininfo-container .login-btn__btn {
+          margin-top: 15px;
+          margin-left: 0px; } }
+      @media screen and (min-width: 1024px) {
+        .bg-body .login-container .logininfo-container .login-btn__btn {
+          margin-top: 15px;
+          margin-left: 0px; } }
       .bg-body .login-container .logininfo-container .login-btn__btn .login-btn2 {
         background: #ffffff;
         font-size: 1.5rem;
@@ -2362,19 +2687,65 @@ header .logo-container {
   align-items: center;
   flex-direction: row;
   padding: 40px; }
+  @media screen and (min-width: 320px) {
+    .reset-container {
+      flex-direction: column; } }
+  @media screen and (min-width: 420px) {
+    .reset-container {
+      flex-direction: column; } }
+  @media screen and (min-width: 540px) {
+    .reset-container {
+      flex-direction: column; } }
+  @media screen and (min-width: 768px) {
+    .reset-container {
+      flex-direction: column; } }
+  @media screen and (min-width: 1024px) {
+    .reset-container {
+      flex-direction: row; } }
   .reset-container .user-reset {
     background: #eeeeee;
     height: 300px;
     width: 450px;
     border: 1px solid #eeeeee;
     border-radius: 20px; }
+    @media screen and (min-width: 320px) {
+      .reset-container .user-reset {
+        width: 290px; } }
+    @media screen and (min-width: 420px) {
+      .reset-container .user-reset {
+        width: 380px; } }
+    @media screen and (min-width: 540px) {
+      .reset-container .user-reset {
+        width: 450px; } }
+    @media screen and (min-width: 768px) {
+      .reset-container .user-reset {
+        width: 450px; } }
+    @media screen and (min-width: 1024px) {
+      .reset-container .user-reset {
+        width: 450px; } }
     .reset-container .user-reset .reset-reset {
       display: flex;
       align-items: center;
       justify-content: center;
       margin-top: 25px; }
       .reset-container .user-reset .reset-reset .reset-title {
-        font-size: 3rem; }
+        font-size: 3rem;
+        text-align: center; }
+        @media screen and (min-width: 320px) {
+          .reset-container .user-reset .reset-reset .reset-title {
+            font-size: 2.4rem; } }
+        @media screen and (min-width: 420px) {
+          .reset-container .user-reset .reset-reset .reset-title {
+            font-size: 3rem; } }
+        @media screen and (min-width: 540px) {
+          .reset-container .user-reset .reset-reset .reset-title {
+            font-size: 3rem; } }
+        @media screen and (min-width: 768px) {
+          .reset-container .user-reset .reset-reset .reset-title {
+            font-size: 3rem; } }
+        @media screen and (min-width: 1024px) {
+          .reset-container .user-reset .reset-reset .reset-title {
+            font-size: 3rem; } }
     .reset-container .user-reset .form-resetpw {
       display: flex;
       justify-content: center;
@@ -2390,12 +2761,42 @@ header .logo-container {
           padding: 0px 15px;
           outline: none;
           margin-bottom: 7px; }
+          @media screen and (min-width: 320px) {
+            .reset-container .user-reset .form-resetpw .form-row .reset-body {
+              width: 250px; } }
+          @media screen and (min-width: 420px) {
+            .reset-container .user-reset .form-resetpw .form-row .reset-body {
+              width: 300px; } }
+          @media screen and (min-width: 540px) {
+            .reset-container .user-reset .form-resetpw .form-row .reset-body {
+              width: 300px; } }
+          @media screen and (min-width: 768px) {
+            .reset-container .user-reset .form-resetpw .form-row .reset-body {
+              width: 300px; } }
+          @media screen and (min-width: 1024px) {
+            .reset-container .user-reset .form-resetpw .form-row .reset-body {
+              width: 300px; } }
       .reset-container .user-reset .form-resetpw .reset-btn__btn {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 100px; }
+        @media screen and (min-width: 320px) {
+          .reset-container .user-reset .form-resetpw .reset-btn__btn {
+            margin-top: 80px; } }
+        @media screen and (min-width: 420px) {
+          .reset-container .user-reset .form-resetpw .reset-btn__btn {
+            margin-top: 100px; } }
+        @media screen and (min-width: 540px) {
+          .reset-container .user-reset .form-resetpw .reset-btn__btn {
+            margin-top: 100px; } }
+        @media screen and (min-width: 768px) {
+          .reset-container .user-reset .form-resetpw .reset-btn__btn {
+            margin-top: 100px; } }
+        @media screen and (min-width: 1024px) {
+          .reset-container .user-reset .form-resetpw .reset-btn__btn {
+            margin-top: 100px; } }
         .reset-container .user-reset .form-resetpw .reset-btn__btn .reset-btn {
           font-size: 1.8rem;
           color: #702626;
@@ -2412,16 +2813,80 @@ header .logo-container {
     width: 350px;
     height: 250px;
     background: linear-gradient(to bottom, #348AC7, #7474BF);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px; }
+    border-radius: 20px; }
+    @media screen and (min-width: 320px) {
+      .reset-container .reg-body {
+        width: 250px; } }
+    @media screen and (min-width: 420px) {
+      .reset-container .reg-body {
+        width: 330px; } }
+    @media screen and (min-width: 540px) {
+      .reset-container .reg-body {
+        width: 350px; } }
+    @media screen and (min-width: 768px) {
+      .reset-container .reg-body {
+        width: 350px; } }
+    @media screen and (min-width: 1024px) {
+      .reset-container .reg-body {
+        width: 350px; } }
     .reset-container .reg-body .reginfo-body h2 {
       font-size: 2.2rem;
       color: #ffffff; }
+      @media screen and (min-width: 320px) {
+        .reset-container .reg-body .reginfo-body h2 {
+          text-align: center; } }
+      @media screen and (min-width: 420px) {
+        .reset-container .reg-body .reginfo-body h2 {
+          text-align: left; } }
+      @media screen and (min-width: 540px) {
+        .reset-container .reg-body .reginfo-body h2 {
+          text-align: left; } }
+      @media screen and (min-width: 768px) {
+        .reset-container .reg-body .reginfo-body h2 {
+          text-align: left; } }
+      @media screen and (min-width: 1024px) {
+        .reset-container .reg-body .reginfo-body h2 {
+          text-align: left; } }
     .reset-container .reg-body .reginfo-body p {
       color: #ffffff;
       font-size: 1.3rem; }
+      @media screen and (min-width: 320px) {
+        .reset-container .reg-body .reginfo-body p {
+          text-align: center; } }
+      @media screen and (min-width: 420px) {
+        .reset-container .reg-body .reginfo-body p {
+          text-align: left; } }
+      @media screen and (min-width: 540px) {
+        .reset-container .reg-body .reginfo-body p {
+          text-align: left; } }
+      @media screen and (min-width: 768px) {
+        .reset-container .reg-body .reginfo-body p {
+          text-align: left; } }
+      @media screen and (min-width: 1024px) {
+        .reset-container .reg-body .reginfo-body p {
+          text-align: left; } }
     .reset-container .reg-body .reg-btn__btn {
       margin-top: 15px; }
+      @media screen and (min-width: 320px) {
+        .reset-container .reg-body .reg-btn__btn {
+          margin-top: 15px;
+          margin-left: 58px; } }
+      @media screen and (min-width: 420px) {
+        .reset-container .reg-body .reg-btn__btn {
+          margin-top: 15px;
+          margin-left: 0px; } }
+      @media screen and (min-width: 540px) {
+        .reset-container .reg-body .reg-btn__btn {
+          margin-top: 15px;
+          margin-left: 0px; } }
+      @media screen and (min-width: 768px) {
+        .reset-container .reg-body .reg-btn__btn {
+          margin-top: 15px;
+          margin-left: 0px; } }
+      @media screen and (min-width: 1024px) {
+        .reset-container .reg-body .reg-btn__btn {
+          margin-top: 15px;
+          margin-left: 0px; } }
       .reset-container .reg-body .reg-btn__btn .reg-btn {
         background: #ffffff;
         font-size: 1.5rem;

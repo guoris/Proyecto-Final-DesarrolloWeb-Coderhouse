@@ -6,12 +6,43 @@
     align-items: center;
     flex-direction: row;
     padding: 40px;
+    @include media-up(xxsm){
+        flex-direction: column;
+    }
+    @include media-up(xsm){
+        flex-direction: column;
+    }
+    @include media-up(sm){
+        flex-direction: column;
+    }
+    @include media-up(md){
+        flex-direction: column;
+    }
+    @include media-up(lg){
+        flex-direction: row;
+    }
     .user-body {
         background: #eeeeee;
         height: 650px;
         width: 450px;
         border: 1px solid #eeeeee;
         border-radius: 20px;
+        @include media-up(xxsm){
+            width: 290px;
+        }
+        @include media-up(xsm){
+            width: 380px;
+        }
+        @include media-up(sm){
+            width: 450px;
+        }
+        @include media-up(md){
+            width: 450px;
+        }
+        @include media-up(lg){
+            width: 450px;
+        }
+
         .userlogin-body {
             display: flex;
             align-items: center;
@@ -19,6 +50,21 @@
             margin-top: 25px;
             h1 {
                 font-size: 4rem;
+                @include media-up(xxsm){
+                    font-size: 3.4rem;
+                }
+                @include media-up(xsm){
+                    font-size: 4rem;
+                }
+                @include media-up(sm){
+                    font-size: 4rem;
+                }
+                @include media-up(md){
+                    font-size: 4rem;
+                }
+                @include media-up(lg){
+                    font-size: 4rem;
+                }
             }
         }
         .form-register {
@@ -40,6 +86,21 @@
                 padding: 0px 15px;
                 outline: none;
                 margin-bottom: 7px;
+                @include media-up(xxsm){
+                    width: 250px;
+                }
+                @include media-up(xsm){
+                    width: 300px;
+                }
+                @include media-up(sm){
+                    width: 300px;
+                }
+                @include media-up(md){
+                    width: 300px;
+                }
+                @include media-up(lg){
+                    width: 300px;
+                }
             }
             .form-line-2 {
                 h3 {
@@ -53,10 +114,40 @@
                     padding: 0px 15px;
                     outline: none;
                     margin-bottom: 7px;
+                    @include media-up(xxsm){
+                        width: 81px;
+                    }
+                    @include media-up(xsm){
+                        width: 98px;
+                    }
+                    @include media-up(sm){
+                        width: 98px;
+                    }
+                    @include media-up(md){
+                        width: 98px;
+                    }
+                    @include media-up(lg){
+                        width: 98px;
+                    }
                 }
             }
             .form-line-3 {
                 width: 302px;
+                @include media-up(xxsm){
+                    width: 250px;
+                }
+                @include media-up(xsm){
+                    width: 302px;
+                }
+                @include media-up(sm){
+                    width: 302px;
+                }
+                @include media-up(md){
+                    width: 302px;
+                }
+                @include media-up(lg){
+                    width: 302px;
+                }
                 h3 {
                     font-size: 2.2rem;
                 }
@@ -66,6 +157,21 @@
                 }
                 .register-gen__body {
                     margin-right: 26px;
+                    @include media-up(xxsm){
+                        margin-right: 9px;
+                    }
+                    @include media-up(xsm){
+                        margin-right: 26px;
+                    }
+                    @include media-up(sm){
+                        margin-right: 26px;
+                    }
+                    @include media-up(md){
+                        margin-right: 26px;
+                    }
+                    @include media-up(lg){
+                        margin-right: 26px;
+                    }
                 }
             }
             .form-terms {
@@ -73,6 +179,21 @@
                 width: 302px;
                 justify-content: center;
                 align-items: center;
+                @include media-up(xxsm){
+                    width: 250px;
+                }
+                @include media-up(xsm){
+                    width: 302px;
+                }
+                @include media-up(sm){
+                    width: 302px;
+                }
+                @include media-up(md){
+                    width: 302px;
+                }
+                @include media-up(lg){
+                    width: 302px;
+                }
                 p {
                     font-size: 1.2rem;
                 }
@@ -105,19 +226,84 @@
         width: 350px;
         height: 300px;
         background: linear-gradient(to bottom, #348ac7, #7474bf);
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
+        border: 20px;
+        border-radius: 20px;
+        @include media-up(xxsm){
+            width: 250px;
+        }
+        @include media-up(xsm){
+            width: 330px;
+        }
+        @include media-up(sm){
+            width: 350px;
+        }
+        @include media-up(md){
+            width: 350px;
+        }
+        @include media-up(lg){
+            width: 350px;
+        }
         .logininfo-container {
             h2 {
                 font-size: 3rem;
                 color: #ffffff;
+                @include media-up(xxsm){
+                    text-align: center;
+                }
+                @include media-up(xsm){
+                    text-align: left;
+                }
+                @include media-up(sm){
+                    text-align: left;
+                }
+                @include media-up(md){
+                    text-align: left;
+                }
+                @include media-up(lg){
+                    text-align: left;
+                }
             }
             p {
                 color: #ffffff;
-                font-size: 1.3rem;
+                font-size: 1.4rem;
+                @include media-up(xxsm){
+                    text-align: center;
+                }
+                @include media-up(xsm){
+                    text-align: left;
+                }
+                @include media-up(sm){
+                    text-align: left;
+                }
+                @include media-up(md){
+                    text-align: left;
+                }
+                @include media-up(lg){
+                    text-align: left;
+                }
             }
             .login-btn__btn {
                 margin-top: 15px;
+                @include media-up(xxsm){
+                    margin-top: 15px;
+                    margin-left: 55px;
+                }
+                @include media-up(xsm){
+                    margin-top: 15px;
+                    margin-left: 0px;
+                }
+                @include media-up(sm){
+                    margin-top: 15px;
+                    margin-left: 0px;
+                }
+                @include media-up(md){
+                    margin-top: 15px;
+                    margin-left: 0px;
+                }
+                @include media-up(lg){
+                    margin-top: 15px;
+                    margin-left: 0px;
+                }
                 .login-btn2 {
                     background: #ffffff;
                     font-size: 1.5rem;

@@ -6,12 +6,42 @@
     align-items: center;
     flex-direction: row;
     padding: 40px;
+    @include media-up(xxsm){
+        flex-direction: column;
+    }
+    @include media-up(xsm){
+        flex-direction: column;
+    }
+    @include media-up(sm){
+        flex-direction: column;
+    }
+    @include media-up(md){
+        flex-direction: column;
+    }
+    @include media-up(lg){
+        flex-direction: row;
+    }
     .user-reset {
         background: #eeeeee;
         height: 300px;
         width: 450px;
         border: 1px solid #eeeeee;
         border-radius: 20px;
+        @include media-up(xxsm){
+            width: 290px;
+        }
+        @include media-up(xsm){
+            width: 380px;
+        }
+        @include media-up(sm){
+            width: 450px;
+        }
+        @include media-up(md){
+            width: 450px;
+        }
+        @include media-up(lg){
+            width: 450px;
+        }
         .reset-reset {
             display: flex;
             align-items: center;
@@ -19,6 +49,22 @@
             margin-top: 25px;
             .reset-title {
                 font-size: 3rem;
+                text-align: center;
+                @include media-up(xxsm){
+                    font-size: 2.4rem;
+                }
+                @include media-up(xsm){
+                    font-size: 3rem;
+                }
+                @include media-up(sm){
+                    font-size: 3rem;
+                }
+                @include media-up(md){
+                    font-size: 3rem;
+                }
+                @include media-up(lg){
+                    font-size: 3rem;
+                }
             }
         }
         .form-resetpw {
@@ -36,6 +82,21 @@
                     padding: 0px 15px;
                     outline: none;
                     margin-bottom: 7px;
+                    @include media-up(xxsm){
+                        width: 250px;
+                    }
+                    @include media-up(xsm){
+                        width: 300px;
+                    }
+                    @include media-up(sm){
+                        width: 300px;
+                    }
+                    @include media-up(md){
+                        width: 300px;
+                    }
+                    @include media-up(lg){
+                        width: 300px;
+                    }
                 }
             }
             .reset-btn__btn {
@@ -44,6 +105,21 @@
                 justify-content: center;
                 align-items: center;
                 margin-top: 100px;
+                @include media-up(xxsm){
+                    margin-top: 80px;
+                }
+                @include media-up(xsm){
+                    margin-top: 100px;
+                }
+                @include media-up(sm){
+                    margin-top: 100px;
+                }
+                @include media-up(md){
+                    margin-top: 100px;
+                }
+                @include media-up(lg){
+                    margin-top: 100px;
+                }
                 .reset-btn {
                     font-size: 1.8rem;
                     color: #702626;
@@ -65,20 +141,84 @@
         width: 350px;
         height: 250px;
         background: linear-gradient(to bottom, #348AC7, #7474BF);
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
+        border-radius: 20px;
+        @include media-up(xxsm){
+            width: 250px;
+        }
+        @include media-up(xsm){
+            width: 330px;
+        }
+        @include media-up(sm){
+            width: 350px;
+        }
+        @include media-up(md){
+            width: 350px;
+        }
+        @include media-up(lg){
+            width: 350px;
+        }
         .reginfo-body {
             h2 {
                 font-size: 2.2rem;
                 color: #ffffff;
+                @include media-up(xxsm){
+                    text-align: center;
+                }
+                @include media-up(xsm){
+                    text-align: left;
+                }
+                @include media-up(sm){
+                    text-align: left;
+                }
+                @include media-up(md){
+                    text-align: left;
+                }
+                @include media-up(lg){
+                    text-align: left;
+                }
             }
             p {
                 color: #ffffff;
                 font-size: 1.3rem;
+                @include media-up(xxsm){
+                    text-align: center;
+                }
+                @include media-up(xsm){
+                    text-align: left;
+                }
+                @include media-up(sm){
+                    text-align: left;
+                }
+                @include media-up(md){
+                    text-align: left;
+                }
+                @include media-up(lg){
+                    text-align: left;
+                }
             }
         }
         .reg-btn__btn {
             margin-top: 15px;
+            @include media-up(xxsm){
+                margin-top: 15px;
+                margin-left: 58px;
+            }
+            @include media-up(xsm){
+                margin-top: 15px;
+                margin-left: 0px;
+            }
+            @include media-up(sm){
+                margin-top: 15px;
+                margin-left: 0px;
+            }
+            @include media-up(md){
+                margin-top: 15px;
+                margin-left: 0px;
+            }
+            @include media-up(lg){
+                margin-top: 15px;
+                margin-left: 0px;
+            }
             .reg-btn {
                 background: #ffffff;
                 font-size: 1.5rem;

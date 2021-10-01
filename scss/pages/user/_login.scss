@@ -34,6 +34,21 @@
         width: 450px;
         border: 1px solid #eeeeee;
         border-radius: 20px;
+        @include media-up(xxsm){
+            width: 290px;
+        }
+        @include media-up(xsm){
+            width: 380px;
+        }
+        @include media-up(sm){
+            width: 450px;
+        }
+        @include media-up(md){
+            width: 450px;
+        }
+        @include media-up(lg){
+            width: 450px;
+        }
         .userlogin-container {
             display: flex;
             align-items: center;
@@ -41,6 +56,21 @@
             margin-top: 25px;
             h1 {
                 font-size: 4rem;
+                @include media-up(xxsm){
+                    font-size: 3.4rem;
+                }
+                @include media-up(xsm){
+                    font-size: 4rem;
+                }
+                @include media-up(sm){
+                    font-size: 4rem;
+                }
+                @include media-up(md){
+                    font-size: 4rem;
+                }
+                @include media-up(lg){
+                    font-size: 4rem;
+                }
             }
         }
         .form-login {
@@ -53,6 +83,21 @@
                 font-size: 2.2rem;
                 text-align: left;
                 width: 300px;
+                @include media-up(xxsm){
+                    width: 230px;
+                }
+                @include media-up(xsm){
+                    width: 300px;
+                }
+                @include media-up(sm){
+                    width: 300px;
+                }
+                @include media-up(md){
+                    width: 300px;
+                }
+                @include media-up(lg){
+                    width: 300px;
+                }
             }
             .login-body {
                 width: 300px;
@@ -62,11 +107,41 @@
                 padding: 0px 15px;
                 outline: none;
                 margin-bottom: 7px;
+                @include media-up(xxsm){
+                    width: 250px;
+                }
+                @include media-up(xsm){
+                    width: 300px;
+                }
+                @include media-up(sm){
+                    width: 300px;
+                }
+                @include media-up(md){
+                    width: 300px;
+                }
+                @include media-up(lg){
+                    width: 300px;
+                }
             }
 
             .pw-check {
                 position: relative;
                 right: 64px;
+                @include media-up(xxsm){
+                    right: 40px;
+                }
+                @include media-up(xsm){
+                    right: 64px;
+                }
+                @include media-up(sm){
+                    right: 64px;
+                }
+                @include media-up(md){
+                    right: 64px;
+                }
+                @include media-up(lg){
+                    right: 64px;
+                }
                 .pw-check-2 {
                     font-size: 1.4rem;
                 }
@@ -104,16 +179,82 @@
         height: 300px;
         background: linear-gradient(to bottom, #348AC7, #7474BF);
         border-radius: 20px;
+        @include media-up(xxsm){
+            width: 250px;
+        }
+        @include media-up(xsm){
+            width: 330px;
+        }
+        @include media-up(sm){
+            width: 350px;
+        }
+        @include media-up(md){
+            width: 350px;
+        }
+        @include media-up(lg){
+            width: 350px;
+        }
         .registerinfo-container {
             h2 {
                 font-size: 2.2rem;
                 color: #ffffff;
+                @include media-up(xxsm){
+                    text-align: center;
+                }
+                @include media-up(xsm){
+                    text-align: left;
+                }
+                @include media-up(sm){
+                    text-align: left;
+                }
+                @include media-up(md){
+                    text-align: left;
+                }
+                @include media-up(lg){
+                    text-align: left;
+                }
             }
-            p {    color: #ffffff;
-                font-size: 1.3rem;
+            p { 
+                color: #ffffff;
+                font-size: 1.4rem;
+                @include media-up(xxsm){
+                    text-align: center;
+                }
+                @include media-up(xsm){
+                    text-align: left;
+                }
+                @include media-up(sm){
+                    text-align: left;
+                }
+                @include media-up(md){
+                    text-align: left;
+                }
+                @include media-up(lg){
+                    text-align: left;
+                }
             }
             .register-btn__btn {
                 margin-top: 15px;
+                @include media-up(xxsm){
+                    margin-top: 15px;
+                    margin-left: 58px;
+                }
+                @include media-up(xsm){
+                    margin-top: 15px;
+                    margin-left: 0px;
+                }
+                @include media-up(sm){
+                    margin-top: 15px;
+                    margin-left: 0px;
+                }
+                @include media-up(md){
+                    margin-top: 15px;
+                    margin-left: 0px;
+                }
+                @include media-up(lg){
+                    margin-top: 15px;
+                    margin-left: 0px;
+                }
                 .register-btn {
                     background: #ffffff;
                     font-size: 1.5rem;
