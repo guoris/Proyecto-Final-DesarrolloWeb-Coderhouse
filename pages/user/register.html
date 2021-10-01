@@ -16,62 +16,66 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700;900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
+        <!-- <header>
             <ul class="nav-list">
                 <li class="nav-list__item"><a href="../../index.html">Inicio</a></li>
             </ul>
-        </header>
-        <section>
-            <div>
-                <h1>Registrarse</h1>
+        </header> -->
+        <section class="bg-body">
+            <div class="user-body">
+                <div class="userlogin-body">
+                    <h1 class="usertitle-body">Registrarse</h1>
+                </div>
+                <form class="form-register">
+                    <div class="form-line">
+                        <h3>Informacion Personal</h3>
+                        <input type="text" name="name" placeholder="Nombre/s" required="" class="register-body"><br>
+                    </div>
+                    <div class="form-line">
+                        <input type="text" name="surname" placeholder="Apellido/s" required="" class="register-body">
+                    </div>
+                    <div class="form-line">
+                        <h3>Correo Electronico</h3>
+                        <input type="email" name="mail" placeholder="Correo Electronico" required="" class="register-body">
+                    </div>
+                    <div class="form-line-2">
+                        <h3>Fecha de Nacimiento</h3>
+                        <input type="number" name="day" min="1" max="31" maxlength="2" placeholder="dd" required="" class="register-num__body">
+                        <input type="number" name="day" min="1" max="12" maxlength="2" placeholder="mm" required="" class="register-num__body">
+                        <input type="number" name="day" min="1900" max="2021" maxlength="4" placeholder="yyyy" required="" class="register-num__body">
+                    </div>
+                    <div class="form-line-3">
+                        <h3>SEXO</h3>
+                        <label for="male" class="radio">Hombre</label>
+                            <input type="radio"name="gender" value="masculino" class="register-gen__body">
+                        <label for="female" class="radio">Mujer</label>
+                            <input type="radio" name="gender" value="femenino" class="register-gen__body">
+                        <label for="others" class="radio">Otro</label>
+                            <input type="radio" name="gender" value="otros" class="register-gen__body">
+                    </div>
+                    <div class="form-line">
+                        <h3>CONTRASEÑA</h3>
+                        <input type="password" name="password" placeholder="Contraseña" min="8" required="" class="register-body"><br>
+                        <input type="password" name="password" placeholder="Confirmar Contraseña" min="8" required="" class="register-body">
+                    </div>
+                    <div class="form-terms">
+                        <input type="checkbox" name="check" required="">
+                        <p>He leído y acepto los Términos y la Política de privacidad del Instituto San Luis Gonzaga</p>
+                    </div>
+                    <div class="register-btn__btn">
+                        <a href="https://youtu.be/uxX2gA18grk?t=50" target="_blank" class="register-btn">Registrarse</a>
+                    </div>
+                </form>
             </div>
-            <form>
-                <div>
-                    <h3>Informacion Personal</h3>
-                    <input type="text" name="name" placeholder="Nombre/s" required=""><br>
+            <section class="login-container">
+                <div class="logininfo-container">
+                    <h2>¿Ya tienes cuenta?</h2>
+                    <p>Inicia Sesion para entrar en la pagina.</p>
+                    <div class="login-btn__btn">
+                        <a href="login.html" class="login-btn2">Iniciar Sesion</a>
+                    </div>
                 </div>
-                <div>
-                    <input type="text" name="surname" placeholder="Apellido/s" required="">
-                </div>
-                <div>
-                    <h3>Correo Electronico</h3>
-                    <input type="email" name="mail" placeholder="Correo Electronico" required="">
-                </div>
-                <div>
-                    <h3>Fecha de Nacimiento</h3>
-                    <input type="number" name="day" min="1" max="31" maxlength="2" placeholder="dd" required="">
-                    <input type="number" name="day" min="1" max="12" maxlength="2" placeholder="mm" required="">
-                    <input type="number" name="day" min="1900" max="2021" maxlength="4" placeholder="yyyy" required="">
-                </div>
-                <div>
-                    <h3>SEXO</h3>
-                    <label for="male">Hombre</label>
-                        <input type="radio" name="gender" value="masculino">
-                    <label for="female">Mujer</label>
-                        <input type="radio" name="gender" value="femenino">
-                    <label for="others">Hombre</label>
-                        <input type="radio" name="gender" value="otros">
-                </div>
-                <div>
-                    <h3>CONTRASEÑA</h3>
-                    <input type="password" name="password" placeholder="Contraseña" min="8" required=""><br>
-                    <input type="password" name="password" placeholder="Confirmar Contraseña" min="8" required="">
-                </div>
-                <div>
-                    <input type="checkbox" name="check" required="">
-                    <p>He leído y acepto los Términos y la Política de privacidad del Instituto San Luis Gonzaga</p>
-                </div>
-                <div>
-                    <input type="submit" value="Registrarse">
-                </div>
-            </form>
-        </section>
-        <section>
-            <h2>¿Ya tienes cuenta?</h2>
-            <p>Inicia Sesion para entrar en la pagina.</p>
-            <div>
-                <button><a href="login.html">Iniciar Sesion</a></button>
-            </div>
+            </section>
         </section>
     </body>
 </html>

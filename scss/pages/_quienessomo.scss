@@ -10,15 +10,15 @@
         flex-direction: column;
     }
     @include media-up(xsm) {
-        min-height: 100vh;
+        min-height: 150vh;
         flex-direction: column;
     }
     @include media-up(sm) {
-        min-height: 100vh;
+        min-height: 140vh;
         flex-direction: column;
     }
     @include media-up(md) {
-        min-height: 100vh;
+        min-height: 140vh;
         flex-direction: column;
     }
     @include media-up(lg) {

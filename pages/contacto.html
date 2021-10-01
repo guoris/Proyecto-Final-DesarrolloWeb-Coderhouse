@@ -11,6 +11,9 @@
         <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicons/favicon-16x16.png">
         <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicons/favicon-32x32.png">
         <!-- <link rel="stylesheet" href="../css/styles.css"> -->
+        <!-- Animate -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- CSS -->
         <link rel="stylesheet" href="../css/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,16 +31,15 @@
                 </div>
             </div>
             <nav class="index-nav">
-                <div class="menu-btn">
-                    <input type="checkbox" id="check">
-                    <label for="check" class="hamburger-btn"><img src="../assets/icons/burger.png" class="img-menu" alt="Menu"></label>
-                </div>
-                <ul class="nav-list nav-pos" id="centrar">
-                    <li class="nav-list__item"><a href="../index.html">Inicio</a></li>
-                    <li class="nav-list__item"><a href="quienessomo.html">Quienes Somos</a></li>
-                    <li class="nav-list__item"><a href="resena.html">Reseña Historica</a></li>
-                    <li class="nav-list__item"><a href="ideario.html">Ideario</a></li>
-                    <li class="nav-list__item"><a href="oferta.html">Oferta Academica<img src="../assets/icons/angle-right-solid.png" class="angle" alt="Flecha"></a>
+                <input type="checkbox" id="check">
+                <label for="check" class="hamburger-btn"><img src="../assets/icons/burger.png" alt="Menu Responsive" class="img-menu">
+                </label>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a class="nav-list__txt active" href="../index.html">Inicio</a></li>
+                    <li class="nav-list__item"><a class="nav-list__txt" href="quienessomo.html">Quienes Somos</a></li>
+                    <li class="nav-list__item"><a class="nav-list__txt" href="resena.html">Reseña Historica</a></li>
+                    <li class="nav-list__item"><a class="nav-list__txt" href="ideario.html">Ideario</a></li>
+                    <li class="nav-list__item"><a href="oferta.html">Oferta Academica<img src="../assets/icons/angle-down-solid.png" class="angle" alt="Flecha"></a>
                         <div class="bg-black100vh">
                             <ul class="nav-list__sub" id="triangle">
                                 <div class="triangle"></div>
@@ -56,6 +58,10 @@
                 <div class="main-container2">
                     <h1 class="main-container__title">Contacto</h1>
                     <a class="main-container__btn" href="#go-contact">Ver mas</a>
+                </div>
+                <div class="arrow-container">
+                    <div class="arrow-down"></div>
+                    <div class="arrow-down-2"></div>
                 </div>
             </section>
             <section class="form-body">
@@ -107,15 +113,21 @@
                             <option value="su">Suiza</option>
                             <option value="uy">Uruguay</option>
                             <option value="ve">Venezuela</option>
-                        </select><br>
+                         </select><!--<br> -->
                     </div>
                     <div class="form-group">
+                        <div class="icons-forms">
+                            <img src="../assets/icons/user-gray.png" alt="Icono Nombre" class="form-iconname">
+                            <img src="../assets/icons/user-gray.png" alt="Icono Apellido" class="form-iconsurname">
+                            <img src="../assets/icons/email.png" alt="Icono Email" class="form-iconemail">
+                            <img src="../assets/icons/phone-call.png" alt="Icono Tel" class="form-iconphone">
+                        </div>
                         <input type="text" name="name" class="form-contact" placeholder="Nombre/s" required="">
                         <input type="text" name="surname" class="form-contact" placeholder="Apelido/s" required=""><br>
                         <input type="email" name="email" class="form-contact" placeholder="Correo Electronico" required="">
                         <input type="tel" name="tel" class="form-contact" placeholder="Telefono" required=""><br>
                         <div class="form-grouparea">
-                            <textarea name="textarea" class="form-textarea" id="" cols="80" rows="10" placeholder="Algo que quieras agregar"></textarea>
+                            <textarea name="textarea" class="form-textarea" id="" cols="80" rows="10" placeholder="Agrega tu consulta aquí"></textarea>
                         </div>
                     </div>
                     <div class="gender-group">
@@ -139,10 +151,14 @@
                 </form>
             </section>
         </main>
+        <div class="scroll-top">
+            <a id="scroll-btn-up" href="#go-top" class="scroll-top-arrow"><img src="../assets/icons/arrowup.png" alt="Arrow Up" class="arrow-up"></a>
+        </div>
         <footer class="index-footer">
             <div class="logo-footer">
                 <img src="../assets/logos/logocolegiowhite.png" class="logof" alt="logo white">
                 <h2 class="logo-info">islglasheras@gmail.com</h2>
+                <p class="logo-credits">© 2021 Felipe Giancola. Todos los derechos reservados.</p>
             </div>
             <div class="contact-info">
                 <div class="contact-info2">
@@ -157,7 +173,13 @@
                 <p class="info__p">General Las Heras (B1741)</p>
                 <p class="info__p">Tel: (0220) 476 - 1568/3925</p>
                 <img src="../assets/img/ubi.png" class="ubi" alt="Logo Ubicacion">
+                <p class="logo-credits-2">© 2021 Felipe Giancola. Todos los derechos reservados.</p>
             </div>
         </footer>
+        <script src="../js/scroll.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>

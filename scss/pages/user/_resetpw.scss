@@ -1,0 +1,97 @@
+.reset-container {
+    min-height: 100vh;
+    background: linear-gradient(to top, #1f1c18, #8e0e00);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 40px;
+    .user-reset {
+        background: #eeeeee;
+        height: 300px;
+        width: 450px;
+        border: 1px solid #eeeeee;
+        border-radius: 20px;
+        .reset-reset {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 25px;
+            .reset-title {
+                font-size: 3rem;
+            }
+        }
+        .form-resetpw {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .form-row {
+                margin-top: 30px;
+                .reset-body {
+                    width: 300px;
+                    height: 38px;
+                    border: 1px solid #ffffff;
+                    border-radius: 10px;
+                    padding: 0px 15px;
+                    outline: none;
+                    margin-bottom: 7px;
+                }
+            }
+            .reset-btn__btn {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 100px;
+                .reset-btn {
+                    font-size: 1.8rem;
+                    color: #702626;
+                    padding: 5px 15px;
+                    border: 3px solid #702626;
+                    border-radius: 50px;
+                    &:hover {
+                        background-color: #702626;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+    .reg-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 250px;
+        background: linear-gradient(to bottom, #348AC7, #7474BF);
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        .reginfo-body {
+            h2 {
+                font-size: 2.2rem;
+                color: #ffffff;
+            }
+            p {
+                color: #ffffff;
+                font-size: 1.3rem;
+            }
+        }
+        .reg-btn__btn {
+            margin-top: 15px;
+            .reg-btn {
+                background: #ffffff;
+                font-size: 1.5rem;
+                padding: 7px 20px;
+                border: 1px solid #ffffff;
+                border-radius: 50px;
+                color: #7474BF;
+                &:hover {
+                    background-color: #7474BF;
+                    border: 1px solid #46467a;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}

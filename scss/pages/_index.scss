@@ -21,45 +21,45 @@
                 width: 100%;
                 height: auto;
                 border-bottom: 4px solid #702626;
-                @include media-up(xxsm){
+                @include media-up(xxsm) {
                     display: none;
                 }
-                @include media-up(xsm){
+                @include media-up(xsm) {
                     display: none;
                 }
-                @include media-up(sm){
+                @include media-up(sm) {
                     display: none;
                 }
-                @include media-up(md){
+                @include media-up(md) {
                     display: none;
                 }
-                @include media-up(lg){
+                @include media-up(lg) {
                     display: block;
                 }
             }
             .banner-mobile {
                 display: none;
-                @include media-up(xxsm){
+                @include media-up(xxsm) {
                     display: block;
                     width: 100%;
                     border-bottom: 4px solid #702626;
                 }
-                @include media-up(xsm){
+                @include media-up(xsm) {
                     display: block;
                     width: 100%;
                     border-bottom: 4px solid #702626;
                 }
-                @include media-up(sm){
+                @include media-up(sm) {
                     display: block;
                     width: 100%;
                     border-bottom: 4px solid #702626;
                 }
-                @include media-up(md){
+                @include media-up(md) {
                     display: block;
                     width: 100%;
                     border-bottom: 4px solid #702626;
                 }
-                @include media-up(lg){
+                @include media-up(lg) {
                     display: none;
                 }
             }
@@ -68,22 +68,56 @@
                 top: 44%;
                 left: 46%;
             }
-            .topbtn {
-                width: auto;
-                height: auto;
-                &__btn {
-                    position: relative;
-                    color: #ffffff;
-                    font-size: 20px;
-                    padding: 9px 27px;
-                    border-radius: 40px;
-                    border: 3px solid #434343;
-                    background: rgba(67, 67, 67, 1);
-                }
-                &__btn:hover {
-                    color: #000000;
-                    border: 3px solid #ffffff;
-                    background: rgba(255, 255, 255, 1);
+            .main-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .topbtn {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100rem;
+                    margin-top: -8%;
+                    @include media-up(xxsm){
+                        width: 30rem;
+
+                        margin-top: -28%;
+                    }
+                    @include media-up(xsm){
+                        width: 40rem;
+                        margin-top: -28%;
+                    }
+                    @include media-up(sm){
+                        width: 50rem;
+                        margin-top: -28%;
+                    }
+                    @include media-up(md){
+                        width: 75rem;
+                        margin-top: -28%;
+                    }
+                    @include media-up(lg){
+                        width: 100rem;
+                        margin-top: -8%;
+                    }
+                    .body-btn {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        &__btn {
+                            position: relative;
+                            color: #ffffff;
+                            font-size: 20px;
+                            padding: 6px 10px;
+                            border-radius: 40px;
+                            border: 3px solid #434343;
+                            background: rgba(67, 67, 67, 1);
+                        }
+                        &__btn:hover {
+                            color: #000000;
+                            border: 3px solid #ffffff;
+                            background: rgba(255, 255, 255, 1);
+                        }
+                    }
                 }
             }
         }
@@ -149,12 +183,12 @@
                 font-size: 2rem;
                 text-shadow: #434343ab 1px 1px;
                 color: #a02727;
-                @include media-up(xxsm){
-                    text-shadow: #434343ab .5px .5px;
+                @include media-up(xxsm) {
+                    text-shadow: #434343ab 0.5px 0.5px;
                     font-size: 1.4rem;
                 }
                 @include media-up(xsm) {
-                    text-shadow: #434343ab .5px .5px;
+                    text-shadow: #434343ab 0.5px 0.5px;
                     font-size: 1.5rem;
                 }
                 @include media-up(sm) {
@@ -194,7 +228,7 @@
                 text-align: center;
                 height: 50px;
                 width: 100%;
-                @include media-up(xxsm){
+                @include media-up(xxsm) {
                     font-size: 2.2rem;
                     padding-top: 13px;
                 }
@@ -223,36 +257,37 @@
             .logobtm-container {
                 width: 180px;
                 height: auto;
-                @include media-up(xxsm){
-                    width: 110px
+                @include media-up(xxsm) {
+                    width: 110px;
                 }
-                @include media-up(xsm){
-                    width: 110px
+                @include media-up(xsm) {
+                    width: 110px;
                 }
-                @include media-up(sm){
+                @include media-up(sm) {
                     width: 130px;
                 }
                 @include media-up(hh) {
                     width: 140px;
                 }
-                @include media-up(md){
+                @include media-up(md) {
                     width: 180px;
                 }
-                @include media-up(lg){
+                @include media-up(lg) {
                     width: 180px;
                 }
             }
             .txt {
                 font-size: 2.5rem;
                 width: 81rem;
-                @include media-up(xxsm){}
-                    font-size: 1.3rem;
-                    width: 28rem;
-                @include media-up(xsm){
+                @include media-up(xxsm) {
+                }
+                font-size: 1.3rem;
+                width: 28rem;
+                @include media-up(xsm) {
                     font-size: 1.4rem;
                     width: 31rem;
                 }
-                @include media-up(sm){
+                @include media-up(sm) {
                     font-size: 1.5rem;
                     width: 48rem;
                 }
@@ -260,11 +295,11 @@
                     font-size: 1.7rem;
                     width: 56rem;
                 }
-                @include media-up(md){
+                @include media-up(md) {
                     font-size: 2rem;
                     width: 65rem;
                 }
-                @include media-up(lg){
+                @include media-up(lg) {
                     font-size: 2.5rem;
                     width: 81rem;
                 }

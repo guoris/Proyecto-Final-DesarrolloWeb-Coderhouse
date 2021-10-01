@@ -5,6 +5,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 80px 0px;
+    background-image: url(../assets/img/banner-web.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 
     .local-pos {
         margin: 25px 0px;
@@ -16,48 +22,48 @@
         width: 59%;
         height: 239px;
         background-color: #eeeeee;
-        transition: box-shadow 500ms;
-        @include media-up(xxsm){
+        // transition: box-shadow 500ms;
+        @include media-up(xxsm) {
             width: 250px;
             height: 350px;
         }
-        @include media-up(xsm){
+        @include media-up(xsm) {
             width: 250px;
             height: 350px;
         }
-        @include media-up(sm){
+        @include media-up(sm) {
             width: 300px;
             height: 400px;
         }
-        @include media-up(md){
+        @include media-up(md) {
             width: 350px;
             height: 450px;
         }
-        @include media-up(lg){
+        @include media-up(lg) {
             width: 59%;
             height: 239px;
         }
-        @keyframes scale2 {
-            to {
-                transform: scale(1.1, 1.1);
-            }
-        }
+        // @keyframes scale2 {
+        //     to {
+        //         transform: scale(1.1, 1.1);
+        //     }
+        // }
         .local-info {
             width: 100%;
             display: flex;
-            @include media-up(xxsm){
+            @include media-up(xxsm) {
                 flex-direction: column;
             }
-            @include media-up(xsm){
+            @include media-up(xsm) {
                 flex-direction: column;
             }
-            @include media-up(sm){
+            @include media-up(sm) {
                 flex-direction: column;
             }
-            @include media-up(md){
+            @include media-up(md) {
                 flex-direction: column;
             }
-            @include media-up(lg){
+            @include media-up(lg) {
                 flex-direction: row;
             }
             #level1 {
@@ -69,29 +75,28 @@
                 color: white;
                 background-color: #6ab89c;
                 border-radius: 20px;
-                @include media-up(xxsm){
+                @include media-up(xxsm) {
                     margin-top: 9px;
                     margin-left: 39px;
                     width: 175px;
                 }
-                @include media-up(xsm){
+                @include media-up(xsm) {
                     margin-top: 8px;
                     margin-left: 38px;
                     width: 180px;
                 }
-                @include media-up(sm){
+                @include media-up(sm) {
                     margin-top: 13px;
                     margin-left: 60px;
                 }
-                @include media-up(md){
+                @include media-up(md) {
                     margin-top: 13px;
                     margin-left: 82px;
                 }
-                @include media-up(lg){
+                @include media-up(lg) {
                     margin-top: 1%;
                     margin-left: 1%;
                 }
-                
             }
 
             #level2 {
@@ -103,25 +108,25 @@
                 color: white;
                 background-color: #ffb244;
                 border-radius: 20px;
-                @include media-up(xxsm){
+                @include media-up(xxsm) {
                     margin-top: 9px;
                     margin-left: 27px;
                     width: 192px;
                 }
-                @include media-up(xsm){
+                @include media-up(xsm) {
                     margin-top: 8px;
                     margin-left: 20px;
                     width: 208px;
                 }
-                @include media-up(sm){
+                @include media-up(sm) {
                     margin-top: 13px;
                     margin-left: 40px;
                 }
-                @include media-up(md){
+                @include media-up(md) {
                     margin-top: 13px;
                     margin-left: 70px;
                 }
-                @include media-up(lg){
+                @include media-up(lg) {
                     margin-top: 1%;
                     margin-left: 1%;
                 }
@@ -136,25 +141,25 @@
                 color: white;
                 background-color: #ff447d;
                 border-radius: 20px;
-                @include media-up(xxsm){
+                @include media-up(xxsm) {
                     margin-top: 9px;
                     margin-left: 13px;
                     width: 224px;
                 }
-                @include media-up(xsm){
+                @include media-up(xsm) {
                     margin-top: 8px;
                     margin-left: 12px;
                     width: 225px;
                 }
-                @include media-up(sm){
+                @include media-up(sm) {
                     margin-top: 13px;
                     margin-left: 40px;
                 }
-                @include media-up(md){
+                @include media-up(md) {
                     margin-top: 13px;
                     margin-left: 65px;
                 }
-                @include media-up(lg){
+                @include media-up(lg) {
                     margin-top: 1%;
                     margin-left: 1%;
                     width: 265px;
@@ -163,19 +168,19 @@
             h2 {
                 text-align: center;
                 font-size: 2.3rem;
-                @include media-up(xxsm){
+                @include media-up(xxsm) {
                     font-size: 2.1rem;
                 }
-                @include media-up(xsm){
+                @include media-up(xsm) {
                     font-size: 2.1rem;
                 }
-                @include media-up(sm){
+                @include media-up(sm) {
                     font-size: 2.1rem;
                 }
-                @include media-up(md){
+                @include media-up(md) {
                     font-size: 2.1rem;
                 }
-                @include media-up(lg){
+                @include media-up(lg) {
                     font-size: 2.3rem;
                 }
             }
@@ -184,19 +189,19 @@
                 position: relative;
                 height: auto;
                 width: 50%;
-                @include media-up(xxsm){
+                @include media-up(xxsm) {
                     width: 100%;
                 }
-                @include media-up(xsm){
+                @include media-up(xsm) {
                     width: 100%;
                 }
-                @include media-up(sm){
+                @include media-up(sm) {
                     width: 100%;
                 }
-                @include media-up(md){
+                @include media-up(md) {
                     width: 100%;
                 }
-                @include media-up(lg){
+                @include media-up(lg) {
                     width: 50%;
                 }
             }
@@ -206,19 +211,19 @@
                 justify-content: center;
                 align-items: center;
                 height: 239px;
-                @include media-up(xxsm){
+                @include media-up(xxsm) {
                     height: 200px;
                 }
-                @include media-up(xsm){
+                @include media-up(xsm) {
                     height: 200px;
                 }
-                @include media-up(sm){
+                @include media-up(sm) {
                     height: 220px;
                 }
-                @include media-up(md){
+                @include media-up(md) {
                     height: 238px;
                 }
-                @include media-up(lg){
+                @include media-up(lg) {
                     width: 50%;
                     height: 239px;
                 }
@@ -227,32 +232,33 @@
                     justify-content: center;
                     align-items: center;
 
-                .local-p {
-                    font-size: 1.8rem;
-                    width: 28rem;
-                    height: auto;
-                    text-align: center;
-                    @include media-up(xxsm){
-                        width: 19rem;
-                        font-size: 1.4rem;
+                    .local-p {
+                        font-size: 1.8rem;
+                        width: 28rem;
+                        height: auto;
+                        text-align: center;
+                        @include media-up(xxsm) {
+                            width: 19rem;
+                            font-size: 1.4rem;
+                        }
+                        @include media-up(xsm) {
+                            width: 19rem;
+                            font-size: 1.5rem;
+                        }
+                        @include media-up(sm) {
+                            width: 22rem;
+                            font-size: 1.7rem;
+                        }
+                        @include media-up(md) {
+                            width: 24rem;
+                            font-size: 1.9rem;
+                        }
+                        @include media-up(lg) {
+                            width: 30rem;
+                            font-size: 1.7rem;
+                        }
                     }
-                    @include media-up(xsm){
-                        width: 19rem;
-                        font-size: 1.5rem;
-                    }
-                    @include media-up(sm){
-                        width: 22rem;
-                        font-size: 1.7rem;
-                    }
-                    @include media-up(md){
-                        width: 24rem;
-                        font-size: 1.9rem;
-                    }
-                    @include media-up(lg){
-                        width: 30rem;
-                        font-size: 1.7rem;
-                    }
-                }}
+                }
             }
         }
     }
@@ -282,19 +288,19 @@
 
         .level1-container {
             width: 90rem;
-            @include media-up(xxsm){
+            @include media-up(xxsm) {
                 width: 28rem;
             }
-            @include media-up(xsm){
+            @include media-up(xsm) {
                 width: 32rem;
             }
-            @include media-up(sm){
+            @include media-up(sm) {
                 width: 40rem;
             }
-            @include media-up(md){
+            @include media-up(md) {
                 width: 60rem;
             }
-            @include media-up(lg){
+            @include media-up(lg) {
                 width: 93rem;
             }
 
@@ -306,19 +312,19 @@
                 color: #434343;
                 font-size: 1.7rem;
                 margin-bottom: 20px;
-                @include media-up(xxsm){
+                @include media-up(xxsm) {
                     font-size: 1.4rem;
                 }
-                @include media-up(xsm){
+                @include media-up(xsm) {
                     font-size: 1.5rem;
                 }
-                @include media-up(sm){
+                @include media-up(sm) {
                     font-size: 1.5rem;
                 }
-                @include media-up(md){
+                @include media-up(md) {
                     font-size: 1.7rem;
                 }
-                @include media-up(lg){
+                @include media-up(lg) {
                     font-size: 1.7rem;
                 }
             }
@@ -331,19 +337,19 @@
 
         .level2-container {
             width: 90rem;
-            @include media-up(xxsm){
+            @include media-up(xxsm) {
                 width: 28rem;
             }
-            @include media-up(xsm){
+            @include media-up(xsm) {
                 width: 32rem;
             }
-            @include media-up(sm){
+            @include media-up(sm) {
                 width: 40rem;
             }
-            @include media-up(md){
+            @include media-up(md) {
                 width: 60rem;
             }
-            @include media-up(lg){
+            @include media-up(lg) {
                 width: 93rem;
             }
 
@@ -357,19 +363,19 @@
                 font-size: 1.7rem;
                 text-align: right;
                 margin-bottom: 20px;
-                @include media-up(xxsm){
+                @include media-up(xxsm) {
                     font-size: 1.4rem;
                 }
-                @include media-up(xsm){
+                @include media-up(xsm) {
                     font-size: 1.5rem;
                 }
-                @include media-up(sm){
+                @include media-up(sm) {
                     font-size: 1.5rem;
                 }
-                @include media-up(md){
+                @include media-up(md) {
                     font-size: 1.7rem;
                 }
-                @include media-up(lg){
+                @include media-up(lg) {
                     font-size: 1.7rem;
                 }
             }
@@ -381,19 +387,19 @@
         align-items: center;
         .level3-container {
             width: 90rem;
-            @include media-up(xxsm){
+            @include media-up(xxsm) {
                 width: 28rem;
             }
-            @include media-up(xsm){
+            @include media-up(xsm) {
                 width: 32rem;
             }
-            @include media-up(sm){
+            @include media-up(sm) {
                 width: 40rem;
             }
-            @include media-up(md){
+            @include media-up(md) {
                 width: 60rem;
             }
-            @include media-up(lg){
+            @include media-up(lg) {
                 width: 93rem;
             }
 
@@ -407,19 +413,19 @@
                 font-size: 1.7rem;
                 text-align: center;
                 margin-bottom: 20px;
-                @include media-up(xxsm){
+                @include media-up(xxsm) {
                     font-size: 1.4rem;
                 }
-                @include media-up(xsm){
+                @include media-up(xsm) {
                     font-size: 1.5rem;
                 }
-                @include media-up(sm){
+                @include media-up(sm) {
                     font-size: 1.5rem;
                 }
-                @include media-up(md){
+                @include media-up(md) {
                     font-size: 1.7rem;
                 }
-                @include media-up(lg){
+                @include media-up(lg) {
                     font-size: 1.7rem;
                 }
             }

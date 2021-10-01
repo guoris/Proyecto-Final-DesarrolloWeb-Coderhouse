@@ -9,17 +9,25 @@ header {
         background-color: $darkred;
         .logo-body {
             width: 70%;
-
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
             a {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 visibility: hidden;
+                position: relative;
+                left: 23px;
                 .logo {
-                    margin-left: 46px;
+                    // margin-left: 46px;
                     width: 80px;
                     visibility: visible;
+                    // position: relative;
+                    // left: 23px;
+                    
                 }
             }
         }

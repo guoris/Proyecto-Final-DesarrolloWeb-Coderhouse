@@ -1,58 +1,93 @@
 // IMPORTS
 @import "../tools/responsive";
 
-#centrar {
-    display: flex;
-    justify-content: center;
-
-    @include media-up(xxsm) {
-        display: block;
-    }
-    @include media-up(xsm) {
-        display: block;
-    }
-    @include media-up(sm) {
-        display: block;
-    }
-    @include media-up(md) {
-        display: block;
-    }
-    @include media-up(lg) {
-        display: flex;
-    }
-}
-
 .index-nav {
     grid-area: index-nav;
 
-    .menu-btn {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        background-color: #531919;
-        height: 52px;
-        
-        @include media-up(lg){
-            display: none
-        }
-        .hamburger-btn {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-            align-items: center;
-        }
-        .img-menu {
-            width: 52px;
-        }
-        #check {
-            display: visible;
-            &:checked ~ .nav-list {
-                background: green;
-                min-height: 100vh;
-                li {
-                    visibility: visible;
+    #check {
+        display: none;
+        &:checked ~ .nav-list {
+            display: block;
+            min-height: 80vh;
+            z-index: 10;
+            animation: test-in 1.5s;
+            @keyframes test-in {
+                from {
+                    opacity: 0;
+                    // transform: translate3d(0, -100%, 0);
+                    min-height: 0vh;
+                }
+                to {
+                    opacity: 1;
+                    // transform: translate3d(0, 0, 0);
+                    min-height: 80vh;
                 }
             }
+
+            li {
+                visibility: visible;
+                display: flex;
+                justify-content: center;
+                padding: 30px 0px;
+                animation: test2-in 1.2s;
+                height: 82px;
+                @keyframes test2-in {
+                    from {
+                        opacity: 0;
+                        padding: 0;
+                        height: 0;
+                    }
+                    to {
+                        opacity: 1;
+                        padding: 30px 0px;
+                        height: 82px;
+                        
+                    }
+                }
+
+                @include media-up(md) {
+                    display: flex;
+                }
+                @include media-up(gh) {
+                    display: flex;
+                }
+                @include media-up(lg) {
+                    min-height: 0vh;
+                    display: none;
+                }
+
+                a {
+                    &:hover {
+                        color: #a04b4b;
+                    }
+                }
+            }
+        }
+    }
+
+    .hamburger-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        height: 40px;
+        background-color: #531919;
+
+        @include media-up(sm) {
+            display: flex;
+        }
+        @include media-up(md) {
+            display: flex;
+        }
+        @include media-up(gh) {
+            display: none;
+        }
+        @include media-up(lg) {
+            display: none;
+        }
+        .img-menu {
+            width: 30px;
+            margin-right: 8px;
         }
     }
 
@@ -60,64 +95,136 @@
         background-color: $almostgray;
         font-size: 2rem;
         padding: 8px 0px;
-        @include media-up(xxsm){
-            font-size: 1.5rem;
-        }
-        @include media-up(xsm){
-            font-size: 1.5rem;
-        }
-        @include media-up(sm){
-            font-size: 1.8rem;
-        }
-        @include media-up(md){
-            font-size: 2rem;
-        }
-        @include media-up(lg){
-            font-size: 2rem;}
-    }
-    .angle {
-        display: none;
-    }
-    .nav-list__item {
-        position: relative;
-        display: inline-block;
-        margin: 0 10px;
-        padding: 0 10px;
+        display: flex;
+        justify-content: center;
 
         @include media-up(xxsm) {
-            display: block;
-            padding: 2px 10px;
-            border-bottom: 2px solid #77777786;
+            display: none;
+            font-size: 1.4rem;
         }
         @include media-up(xsm) {
-            display: block;
-            padding: 2px 10px;
-            border-bottom: 2px solid #77777786;
+            display: none;
+            font-size: 1.5rem;
         }
         @include media-up(sm) {
-            display: block;
-            padding: 2px 10px;
-            border-bottom: 2px solid #77777786;
+            display: none;
+            font-size: 1.8rem;
         }
         @include media-up(md) {
-            display: block;
-            padding: 2px 10px;
-            border-bottom: 2px solid #77777786;
+            display: none;
+            font-size: 1.8rem;
+        }
+        @include media-up(gh) {
+            display: flex;
+            font-size: 1.8rem;
         }
         @include media-up(lg) {
-            padding: 0px 10px;
-            border: none;
+            display: flex;
+            font-size: 2rem;
         }
-    }
 
-    a {
-        color: $lightgray;
-        &:hover {
-            color: $lightred;
-            padding-bottom: 8px;
+        .angle {
+            display: block;
+            width: 8px;
+            position: absolute;
+            left: 197px;
+            bottom: 8px;
+            @include media-up(xxsm) {
+                display: none;
+            }
+            @include media-up(xsm) {
+                display: none;
+            }
+            @include media-up(sm) {
+                display: none;
+            }
+            @include media-up(md) {
+                display: block;
+                left: 178px;
+                bottom: 8px;
+            }
+            @include media-up(lg) {
+                display: block;
+                left: 197px;
+                bottom: 8px;
+            }
+        }
+        &__item {
+            position: relative;
+            display: inline-block;
+            margin: 0 10px;
+            padding: 0 10px;
+
+            @include media-up(xxsm) {
+                visibility: hidden;
+                display: block;
+                padding: 2px 10px;
+            }
+            @include media-up(xsm) {
+                visibility: hidden;
+                display: block;
+                padding: 2px 10px;
+            }
+            @include media-up(sm) {
+                visibility: hidden;
+                display: block;
+                padding: 2px 10px;
+            }
+            @include media-up(md) {
+                visibility: visible;
+                padding: 0px 10px;
+                border: none;
+            }
+            @include media-up(lg) {
+                visibility: visible;
+                padding: 0px 10px;
+                border: none;
+            }
+        }
+        a {
+            color: $lightgray;
+            &:hover {
+                color: $lightred;
+                // padding-bottom: 8px;
+                @include media-up(xxsm) {
+                    padding: 0;
+                }
+                @include media-up(xsm) {
+                    padding: 0;
+                }
+                @include media-up(sm) {
+                    padding: 0;
+                }
+                @include media-up(md) {
+                    padding: 0;
+                }
+                @include media-up(lg) {
+                    padding-bottom: 8px;
+                }
+            }
         }
     }
     .nav-list .nav-list__item:hover ul {
         display: block;
+        @include media-up(xxsm) {
+            display: none;
+            opacity: 0;
+        }
+        @include media-up(xsm) {
+            display: none;
+            opacity: 0;
+        }
+        @include media-up(sm) {
+            display: none;
+            opacity: 0;
+        }
+        @include media-up(md) {
+            display: block;
+            opacity: 1;
+        }
+        @include media-up(lg) {
+            display: block;
+            opacity: 1;
+        }
     }
 }

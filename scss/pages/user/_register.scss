@@ -1,0 +1,137 @@
+.bg-body {
+    min-height: 100vh;
+    background: linear-gradient(to top, #1f1c18, #8e0e00);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 40px;
+    .user-body {
+        background: #eeeeee;
+        height: 650px;
+        width: 450px;
+        border: 1px solid #eeeeee;
+        border-radius: 20px;
+        .userlogin-body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 25px;
+            h1 {
+                font-size: 4rem;
+            }
+        }
+        .form-register {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 30px;
+            .form-line {
+                h3 {
+                    font-size: 2.2rem;
+                }
+            }
+            .register-body {
+                width: 300px;
+                height: 38px;
+                border: 1px solid #ffffff;
+                border-radius: 10px;
+                padding: 0px 15px;
+                outline: none;
+                margin-bottom: 7px;
+            }
+            .form-line-2 {
+                h3 {
+                    font-size: 2.2rem;
+                }
+                .register-num__body {
+                    width: 98px;
+                    height: 38px;
+                    border: 1px solid #ffffff;
+                    border-radius: 10px;
+                    padding: 0px 15px;
+                    outline: none;
+                    margin-bottom: 7px;
+                }
+            }
+            .form-line-3 {
+                width: 302px;
+                h3 {
+                    font-size: 2.2rem;
+                }
+                .radio {
+                    font-size: 1.6rem;
+                    margin-right: 6px;
+                }
+                .register-gen__body {
+                    margin-right: 26px;
+                }
+            }
+            .form-terms {
+                display: flex;
+                width: 302px;
+                justify-content: center;
+                align-items: center;
+                p {
+                    font-size: 1.2rem;
+                }
+            }
+            .register-btn__btn {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 65px;
+                margin-top: 40px;
+                .register-btn {
+                    font-size: 1.8rem;
+                    color: #702626;
+                    padding: 5px 15px;
+                    border: 3px solid #702626;
+                    border-radius: 50px;
+                    &:hover {
+                        background-color: #702626;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+    .login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 300px;
+        background: linear-gradient(to bottom, #348ac7, #7474bf);
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        .logininfo-container {
+            h2 {
+                font-size: 3rem;
+                color: #ffffff;
+            }
+            p {
+                color: #ffffff;
+                font-size: 1.3rem;
+            }
+            .login-btn__btn {
+                margin-top: 15px;
+                .login-btn2 {
+                    background: #ffffff;
+                    font-size: 1.5rem;
+                    padding: 7px 20px;
+                    border: 1px solid #ffffff;
+                    border-radius: 50px;
+                    color: #7474bf;
+                    &:hover {
+                        background-color: #7474bf;
+                        border: 1px solid #46467a;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+}

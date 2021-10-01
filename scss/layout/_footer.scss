@@ -22,7 +22,7 @@
     }
     @include media-up(lg){
         flex-direction: row;
-        height: 160px;
+        height: 165px;
     }
 
     .logo-footer {
@@ -45,6 +45,7 @@
         }
         @include media-up(lg){
             height: 140px;
+            width: 301px;
         }
         .logof {
             margin: 0 auto;
@@ -57,6 +58,26 @@
             text-align: center;
             width: 200px;
             height: 22px;
+        }
+        .logo-credits {
+            color: $white;
+            @include media-up(xxsm){
+                visibility: hidden;
+            }
+            @include media-up(xsm){
+                visibility: hidden;
+            }
+            @include media-up(sm){
+                visibility: hidden;
+            }
+            @include media-up(md){
+                visibility: hidden;
+            }
+            @include media-up(lg){
+                text-align: center;
+                visibility: visible;
+                color: $white;
+            }
         }
     }
 
@@ -183,19 +204,25 @@
         color: #ffffff;
         height: 140px;
         @include media-up(xxsm){
+            padding-top: 0;
             font-size: 1.4rem;
         }
         @include media-up(xsm){
+            padding-top: 0;
             font-size: 1.4rem;
             height: 150px;
         }
         @include media-up(sm){
+            padding-top: 0;
             height: 150px;
         }
         @include media-up(md){
+            padding-top: 0;
             height: 150px;
         }
-        @include media-up(lg){}
+        @include media-up(lg){
+            padding-top: 20px;
+        }
         &__title {
             text-align: center;
             position: relative;
@@ -208,6 +235,36 @@
             margin: 0 auto;
             width: 65px;
             height: auto;
+        }
+        .logo-credits-2 {
+            color: $white;
+            border-top: 1px solid #565656;
+            margin-top: 5px;
+            padding-top: 5px;
+            font-size: 1.1rem;
+            @include media-up(xxsm){
+                text-align: center;
+                visibility: visible;
+            }
+            @include media-up(xsm){
+                text-align: center;
+                color: $white;
+                visibility: visible;
+            }
+            @include media-up(sm){
+                text-align: center;
+                color: $white;
+                visibility: visible;
+            }
+            @include media-up(md){
+                text-align: center;
+                color: $white;
+                visibility: visible;
+            }
+            @include media-up(lg){
+                visibility: hidden;
+                color: $white;
+            }
         }
     }
 }
